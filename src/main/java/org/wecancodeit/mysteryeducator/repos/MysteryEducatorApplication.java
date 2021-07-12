@@ -1,4 +1,4 @@
-package org.wecancodeit.mysteryeducator;
+package org.wecancodeit.mysteryeducator.repos;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
