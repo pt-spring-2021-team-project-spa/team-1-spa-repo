@@ -3,6 +3,6 @@ export default function GamesPage() {
     <h2>Welcome to the Games Page</h2>
     <h3>Available Games</h3>
     <a href="https://orteil.dashnet.org/cookieclicker/" target="blank">Cookie Clicker</a>
-    <p>Other great content coming later including: Donut Clicker sponsored by Randy's Donuts&trade</p>
+    <p>Other great content coming later including: Donut Clicker sponsored by Randy's Donuts &reg</p>
     `;
 }
