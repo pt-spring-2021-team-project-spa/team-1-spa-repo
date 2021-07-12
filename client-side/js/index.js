@@ -27,23 +27,23 @@ function header() {
 function navigateToAboutUsPage() {
     const homeButton = document.querySelector('.nav__list_about_us');
     homeButton.addEventListener('click', () => {
-      const app = document.querySelector('#appMain');
-      app.innerHTML = AboutUsPage();
+      const appMain = document.querySelector('#appMain');
+      appMain.innerHTML = AboutUsPage();
     });
 }
 
 function navigateToGamesPage() {
     const homeButton = document.querySelector('.nav__list_games');
     homeButton.addEventListener('click', () => {
-      const app = document.querySelector('#appMain');
-      app.innerHTML = GamesPage();
+      const appMain = document.querySelector('#appMain');
+      appMain.innerHTML = GamesPage();
     });
 }
 
 function navigateToHomePage() {
     const homeButton = document.querySelector('.nav__list_home');
     homeButton.addEventListener('click', () => {
-      const app = document.querySelector('#appMain');
-      app.innerHTML = HomePage();
+      const appMain = document.querySelector('#appMain');
+      appMain.innerHTML = HomePage();
     });
 }
