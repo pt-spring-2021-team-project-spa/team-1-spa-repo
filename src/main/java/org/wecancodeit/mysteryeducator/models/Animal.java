@@ -16,6 +16,7 @@ public class Animal {
     private String animalName;
     private String description;
     private String avgLifeSpan;
+    private String image;
 
 
     @ManyToOne
@@ -26,10 +27,11 @@ public class Animal {
 
     public Animal(){}
 
-    public Animal(String animalName, String description, String avgLifeSpan, Continent continent, Classification classification) {
+    public Animal(String animalName, String description, String avgLifeSpan, String image, Continent continent, Classification classification) {
         this.animalName = animalName;
         this.description = description;
         this.avgLifeSpan = avgLifeSpan;
+        this.image = image;
         this.continent = continent;
         this.classification = classification;
     }
@@ -48,6 +50,10 @@ public class Animal {
 
     public String getAvgLifeSpan(){
         return avgLifeSpan;
+    }
+
+    public String getImage(){
+        return image;
     }
 
     public Continent getContinent(){
