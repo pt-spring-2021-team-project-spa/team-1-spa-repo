@@ -22,10 +22,11 @@ function footer() {
   }
 
 function navigateToHomePage() {
-    const enterBtn = document.querySelector('.enter');
+    const enterBtn = document.querySelector('.entBtn');
     enterBtn.addEventListener('click', () => {
       const app = document.querySelector('#app');
       app.innerHTML = HomePage();
     });
   }
   
+ 

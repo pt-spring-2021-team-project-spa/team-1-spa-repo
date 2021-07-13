@@ -32,7 +32,7 @@ body {
   top: 0;
   height: 120vh;
   width: 0;
-  animation: background-animation 2s ease-in-out 4s 1 normal forwards;
+  animation: background-animation 2s ease-in-out 4s 1 none;
 }
 .background0 {
   left: 0%;
@@ -9633,13 +9633,25 @@ body {
   
   .nav__list li {
     align-items: right; 
-    background-color: rgb(44, 30, 230);
+    background-color: rgb(60, 47, 243);
     border-radius: 6px;
     color: #fff;
     cursor: pointer;
     padding: 5px;
     margin: 15px;
     list-style-type: none;
+  }
+  li.nav__list_developers:hover {
+    color: rgb(60, 47, 243);
+    background-color: #fff;
+  }
+  li.nav__list_contactUs:hover {
+    background-color: #fff;
+    color: rgb(60, 47, 243);
+  }
+  li.nav__list_reviews:hover {
+    background-color: #fff;
+    color: rgb(60, 47, 243); 
   }
   .center {
       align-items: center;
@@ -9654,8 +9666,16 @@ body {
   h1.hp-title:hover {
     font-size: 250%;
     color: rgb(170, 92, 235);
+    font-family: cursive;
   }
   h3.hp-choice:hover{
     color: rgb(170, 92, 235);
+    font-family: cursive;
+    font-size: 150%;
   }
+  h1.entBtn:hover {
+   color: yellowgreen;
+   font-size: 250%;
+  }
+  
   
