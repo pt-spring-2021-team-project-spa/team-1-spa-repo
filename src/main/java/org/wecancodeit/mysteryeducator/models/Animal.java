@@ -15,7 +15,7 @@ public class Animal {
 
     private String animalName;
     private String description;
-    private String avgLifeSpan;
+    private String yearWentExtinct;
     private String image;
 
 
@@ -27,10 +27,10 @@ public class Animal {
 
     public Animal(){}
 
-    public Animal(String animalName, String description, String avgLifeSpan, String image, Continent continent, Classification classification) {
+    public Animal(String animalName, String description, String yearWentExtinct, String image, Continent continent, Classification classification) {
         this.animalName = animalName;
         this.description = description;
-        this.avgLifeSpan = avgLifeSpan;
+        this.yearWentExtinct = yearWentExtinct;
         this.image = image;
         this.continent = continent;
         this.classification = classification;
@@ -48,8 +48,8 @@ public class Animal {
         return description;
     }
 
-    public String getAvgLifeSpan(){
-        return avgLifeSpan;
+    public String getYearWentExtinct(){
+        return yearWentExtinct;
     }
 
     public String getImage(){
