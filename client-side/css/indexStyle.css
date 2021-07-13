@@ -9681,7 +9681,7 @@ body {
     font-size: 150%;
   }
   .hp-choice {
-    animation: roll 3s infinite;
+  animation: roll 3s infinite;
 	 transform: rotate(30deg);
 	 opacity: 0.7;
   }
@@ -9704,7 +9704,6 @@ body {
 .blueD {
   box-shadow: 4px 2px 6px #010101;
   margin:30px;
-
 }
 img.orangeD:hover {
   font-size: 300%;
@@ -9745,7 +9744,6 @@ margin:30px;
     transform: rotateY(70deg);
  }
 }
-  
 @media only screen and (max-width: 961px) {
   header {
     display: flex;

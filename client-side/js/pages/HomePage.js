@@ -4,8 +4,7 @@ import HomePageHeader from '../components/HomePageHeader';
 export default function HomePage() {
     return `
           ${HomePageHeader()}
-
-          <div class="txt-hp">
+           <div class="txt-hp">
           <h1 class="hp-title">CAN YOU NAME THAT YEAR</h1>
           </div>
           <div class="images">
