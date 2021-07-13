@@ -8,8 +8,7 @@ buildPage();
 function buildPage() {
     navigateToHomePage();
     homePageHeader();
-    footer();
-    
+    footer(); 
 }
 function homePageHeader() {
     const headerElement = document.querySelector('.header');
