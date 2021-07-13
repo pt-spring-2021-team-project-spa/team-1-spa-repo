@@ -9644,14 +9644,17 @@ body {
   li.nav__list_developers:hover {
     color: rgb(60, 47, 243);
     background-color: #fff;
+    font-family: cursive;
   }
   li.nav__list_contactUs:hover {
     background-color: #fff;
     color: rgb(60, 47, 243);
+    font-family: cursive;
   }
   li.nav__list_reviews:hover {
     background-color: #fff;
     color: rgb(60, 47, 243); 
+    font-family: cursive;
   }
   .center {
       align-items: center;
