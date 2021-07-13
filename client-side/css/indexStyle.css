@@ -9677,5 +9677,8 @@ body {
    color: yellowgreen;
    font-size: 250%;
   }
+  img.door:hover {
+    font-size: 250%;
+  }
   
   
