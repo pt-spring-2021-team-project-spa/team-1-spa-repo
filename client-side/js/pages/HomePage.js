@@ -8,10 +8,12 @@ export default function HomePage() {
           <div class="txt-hp">
           <h1 class="hp-title">CAN YOU NAME THAT YEAR</h1>
           </div>
+          <div class="images">
           <img class="blueD" src='images/door-b.jpg' alt='blue door' />
           <img class="orangeD" src='images/door-o.png' alt='orange door' />
-          <img class="yellowD" src='images/door-y.jpg' alt='yellow door' /> 
-          <div class="txt-hp">
+          <img class="yellowD" src='images/door-y.jpg' alt='yellow door' />
+        </div>
+          <div class="txt-hp bottom">
           <h3 class="hp-choice"> CHOOSE A DOOR</h3>
           </div>
 

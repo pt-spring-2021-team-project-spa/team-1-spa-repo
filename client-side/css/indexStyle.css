@@ -9629,56 +9629,55 @@ body {
 }
 .nav__list {
     display: flex;
-    padding-top: 30px;
+    padding-top: 20px;
+    background-color:#A3C5B9;
+    margin-right: -50px;
   }
   .nav__list li {
     align-items: right; 
-    background-color: rgb(60, 47, 243);
+    background-color: #316b3d;
     border-radius: 6px;
-    color: #fff;
+    color: #f0f0f2;
     cursor: pointer;
-    padding: 5px;
+    padding: 8px;
     margin: 15px;
     list-style-type: none;
+    border-radius: 100%;
   }
   li.nav__list_home:hover {
-    color: rgb(60, 47, 243);
+    color: #766DF6;
     background-color: #fff;
     font-family: cursive;
+  
   }
   li.nav__list_developers:hover {
-    color: rgb(60, 47, 243);
+    color: #766DF6;
     background-color: #fff;
     font-family: cursive;
+  
   }
   li.nav__list_contactUs:hover {
     background-color: #fff;
-    color: rgb(60, 47, 243);
+    color: #766DF6;
     font-family: cursive;
+  
   }
   li.nav__list_reviews:hover {
     background-color: #fff;
-    color: rgb(60, 47, 243); 
+    color: #766DF6;
     font-family: cursive;
-  }
-  .center {
-      align-items: center;
+
   }
   .txt-hp {
     align-items: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: xx-large;
     color: rgb(148, 148, 147);
-    margin: 10px;
   }
   h1.hp-title:hover {
     font-size: 250%;
-    color: rgb(170, 92, 235);
-    font-family: cursive;
   }
   h3.hp-choice:hover{
-    color: rgb(170, 92, 235);
-    font-family: cursive;
     font-size: 150%;
   }
   h1.entBtn:hover {
@@ -9692,6 +9691,7 @@ body {
 .blueD {
   box-shadow: 4px 2px 6px #010101;
   margin:30px;
+
 }
 img.orangeD:hover {
   font-size: 300%;
@@ -9709,4 +9709,25 @@ img.yellowD:hover {
 box-shadow: 4px 2px 6px #010101;
 margin:30px;
 } 
-  
+.bottom {
+  margin-top: 150px;
+}
+.images {
+  margin-top: 200px;
+}
+.jackr {
+  font-size: medium;
+  font-weight: bold;
+  margin-top: 70px; 
+
+}
+@media only screen and (max-width: 961px) {
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+}
