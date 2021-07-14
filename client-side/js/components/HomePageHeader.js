@@ -7,7 +7,7 @@ export default function HomePageHeader() {
         <li class='nav__list_contactUs'>Contact Us</li>
         <li class='nav__list_reviews'>Reviews</li>
     </ul>
-    <p class="jackr"> JACKR ENTERPRISES PRESENTS</p>
+    <p class="jackr"> JACKR ACADEMY PRESENTS</p>
     </div>
 `;    
 }
