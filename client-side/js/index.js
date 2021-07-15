@@ -2,15 +2,14 @@ import Footer from './components/Footer.js';
 import HomePageHeader from './components/HomePageHeader.js';
 import HomePage from './pages/HomePage.js';
 
-
 buildPage();
 
 function buildPage() {
     navigateToHomePage();
     homePageHeader();
     footer();
-    
 }
+
 function homePageHeader() {
     const headerElement = document.querySelector('.header');
     headerElement.innerHTML = HomePageHeader();
@@ -28,5 +27,5 @@ function navigateToHomePage() {
       app.innerHTML = HomePage();
     });
   }
-  
+
  
