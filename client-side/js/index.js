@@ -42,14 +42,14 @@ function interactWithDoor() {
  const app = document.querySelector('#app'); 
   app.addEventListener('click', (event) => {
       if (event.target.classList.contains('door')) {
+        console.log(event.taget);
       const doorEle = document.querySelector('.door');
       doorEle.addEventListener('click', () => {
       doorEle.classList.toggle("doorOpen");      
       })
      }
    });
- }
-
+  }
 function interactWithSlideshow() {
   const imgDiv = document.querySelector('#images');
   imgDiv.addEventListener('click', (event) => {
