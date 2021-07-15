@@ -1,0 +1,39 @@
+.backDoor {
+    background: #6C6B63;
+    background: -webkit-radial-gradient(bottom, #6C6B63, #1C1C1B);
+    background: -moz-radial-gradient(bottom, #6C6B63, #1C1C1B);
+    background: radial-gradient(to top, #6C6B63, #1C1C1B);
+    box-shadow: 1px 1px 3px #010101;
+    height:360px;
+    margin: 0 auto;
+    margin-top:50px;
+    position:relative;
+    width:280px;  
+}
+.door {
+    background: rgba(203, 221, 200, 1.0);   
+    background: #EB530C;
+    background: -webkit-radial-gradient(top right, #EB530C, #F07105);
+    background: -moz-radial-gradient(top right, #f7580e, #F07105);
+    background: radial-gradient(to bottom left, #EB530C, #bb5a06);
+    box-shadow: 4px 2px 6px #010101;
+    height:360px;
+    left:0px;
+    position:absolute;
+    top:0px;
+    transform-origin: left;
+    transition: all 0.5s ease-in-out;
+    width:280px;
+}
+.doorOpen {
+  transform: perspective(1200px) translateZ(0px) translateX(0px) translateY(0px) rotateY(-105deg);
+}
+.doorDisplay {
+    display: flex;
+}
+.qMark {
+    color: rgb(238, 234, 13);
+    font-size: 200px;
+    margin-top: 60px;
+}
+
