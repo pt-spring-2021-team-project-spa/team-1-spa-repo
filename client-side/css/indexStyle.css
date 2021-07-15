@@ -21,6 +21,7 @@ body {
 .logoImg {
   animation: moveLogo 15s infinite;
   border-radius: 100%;
+  box-shadow: 6px 3px 5px #353434;
   height: 150px;
   margin-top: 50px;
   margin-left: -150px;
@@ -39,7 +40,9 @@ body {
     animation-direction: alternate;
     background: red;
     border-radius: 50%;
+    box-shadow: 5px 3px 6px #353434;
     color: rgb(10, 43, 116);
+    font-family: 'Montserrat', sans-serif;
     height: 120px;
     opacity: .6;
     padding: 20px;
@@ -59,13 +62,13 @@ body {
     }
   .entBtn {
     text-align: center;
-    color: rgb(121, 121, 119);
+    color: #6C6B63;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 100px;
     margin-top: 150px;
   }
   h1.entBtn:hover {
-    color: yellowgreen;
+    color: rgb(181, 235, 75);
     font-size: 850%;
    }
   .back {
@@ -73,7 +76,9 @@ body {
     animation-direction: normal;
     background: green;
     border-radius: 20%;
+    box-shadow: 5px 3px 6px #353434;
     color: rgb(10, 43, 116);
+    font-family: 'Montserrat', sans-serif;
     height: 110px;
     opacity: .6;
     position: relative;
@@ -83,8 +88,8 @@ body {
   @keyframes backBox {
     0%   {background: green; left: 0px; top: 0px;}
     25%  {background: red; left: 0px; top: 150px;}
-    50%  {background: yellow; left: 1700px; top: 150px;}
-    75%  {background: blue; left: 1700px; top: 0px;}
+    50%  {background: yellow; left: 1750px; top: 150px;}
+    75%  {background: blue; left: 1750px; top: 0px;}
     100% {background: green; left: 0px; top: 0px;}
   }
   .center {
