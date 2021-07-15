@@ -2,51 +2,98 @@
 
 
 body {
-  height: 1500px;
-  font-family: 'Montserrat', sans-serif;
   background: #2E96F5;
   background: -webkit-radial-gradient(top left, #2E96F5, #05F043);
   background: -moz-radial-gradient(top left, #2E96F5, #05F043);
   background: radial-gradient(to bottom right, #2E96F5, #05F043);
+  font-family: 'Montserrat', sans-serif;
   font-size: 100%;
+  height: 1500px;
   margin-top: -35px;
   margin-left: -10px;
 }
-.center {
-  text-align: center;
-}
-.entBtn {
-  text-align: center;
-  color: rgb(121, 121, 119);
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 100px;
-    margin-top: 150px;
-}
-.logoImg {
-  border-radius: 100%;
-  height: 150px;
-  margin-top: 50px;
-  margin-left: -150px;
-  opacity: .5;
-  position: relative;
-  animation: moveLogo 15s infinite;
-  }
-  #logoID 
-  {animation-timing-function: cubic-bezier(0.42,0,1,1);}
-  @keyframes moveLogo {
-    from {left: -5px;}
-    to {left: 2800px;}
-  }
 .header {
     display: none;
 }
 .footer {
     display: none;
 }
-.nav__list {
+.logoImg {
+  animation: moveLogo 15s infinite;
+  border-radius: 100%;
+  height: 150px;
+  margin-top: 50px;
+  margin-left: -150px;
+  opacity: .5;
+  position: relative;
+  }
+  #logoID {
+    animation-timing-function: cubic-bezier(0.42,0,1,1);
+  }
+  @keyframes moveLogo {
+    from {left: -5px;}
+    to {left: 2800px;}
+  }
+  .w {
+    animation: wBox 9s infinite;
+    animation-direction: alternate;
+    background: red;
+    border-radius: 50%;
+    color: rgb(10, 43, 116);
+    height: 120px;
+    opacity: .6;
+    padding: 20px;
+    position: relative;
+    width: 715px;  
+  }
+  .text {
+    font-size: 100px;
+    text-align: center;
+    }
+    @keyframes wBox {
+      0%   {background: red; left: 10px; top: 0px;}
+      25%  {background: yellow; left: 1400px; top: 0px;}
+      50%  {background: blue; left: 1400px; top: 450px;}
+      75%  {background: green; left: 10px; top: 450px;}
+      100% {background: red; left: 10px; top: 0px;}
+    }
+  .entBtn {
+    text-align: center;
+    color: rgb(121, 121, 119);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 100px;
+    margin-top: 150px;
+  }
+  h1.entBtn:hover {
+    color: yellowgreen;
+    font-size: 850%;
+   }
+  .back {
+    animation: backBox 9s infinite;
+    animation-direction: normal;
+    background: green;
+    border-radius: 20%;
+    color: rgb(10, 43, 116);
+    height: 110px;
+    opacity: .6;
+    position: relative;
+    padding: 25px;
+    width: 350px;  
+  }
+  @keyframes backBox {
+    0%   {background: green; left: 0px; top: 0px;}
+    25%  {background: red; left: 0px; top: 150px;}
+    50%  {background: yellow; left: 1700px; top: 150px;}
+    75%  {background: blue; left: 1700px; top: 0px;}
+    100% {background: green; left: 0px; top: 0px;}
+  }
+  .center {
+    text-align: center;
+  }
+  .nav__list {
     display: flex;
-    padding-top: 20px;
     margin-right: -50px;
+    padding-top: 20px;
   }
   .nav__list li { 
     background-color: #3f6597;
@@ -57,8 +104,8 @@ body {
     cursor: pointer;
     list-style-type: none;
     margin: 15px;
-    padding: 8px;
     opacity: .9;
+    padding: 8px;
   }
   li.nav__list_home:hover {
     background-color: #f0f0f2;
@@ -88,20 +135,42 @@ body {
     font-family: cursive;
     font-weight: bold;
   }
+  .jackr {
+    animation: one 2s infinite;
+    animation-direction: alternate;
+    color: rgb(102, 100, 100);
+    font-family: 'Montserrat', sans-serif;;
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 30px; 
+    text-shadow: 1px 1px #4491e9b9;
+    transform: rotateY(40deg);
+  }
+  @keyframes one {
+    0% {
+      transform: rotateY(0);
+   }
+    100% {
+      transform: rotateY(70deg);
+   }
+  }
   .txt-hp {
     align-items: center;
     color: #3f6597;
     font-family: 'Montserrat', sans-serif;
-     font-size: xx-large;
-    text-shadow: 1px 1px #575252;
+    font-size: xx-large;
+    text-shadow: 2px 2px #5485dfb7;
   }
   h1.hp-title:hover {
     font-size: 250%;
   }
-  h3.hp-choice:hover{
-    font-size: 150%;
+  .bottom {
+  color: #3f6597;
+  font-size: 50px;
+  margin-top: 120px;
+  text-shadow: 1px 1px #575252;
   }
-  .hp-choice {
+ .hp-choice {
     animation: roll 3s infinite;
     opacity: 0.7;
     transform: rotate(30deg);
@@ -114,116 +183,16 @@ body {
       transform: rotate(360deg);
    }
  }
-  h1.entBtn:hover {
-   color: yellowgreen;
-   font-size: 850%;
+ h3.hp-choice:hover{
+    font-size: 150%;
   }
-  img.blueD:hover {
-    font-size: 300%;
-    transform: rotate(-30deg);
-  }
-  .blueD {
-  box-shadow: 4px 2px 6px #010101;
-  margin:30px;
-}
-  img.orangeD:hover {
-  font-size: 300%;
-  transform: rotate3d(0deg);
-}
-  .orangeD {
-  box-shadow: 4px 2px 6px #010101;
-  margin:30px;
-  }
-  img.yellowD:hover {
-  font-size: 300%;
-  transform: rotate(30deg);
-  }
-  .yellowD {
-  box-shadow: 4px 2px 6px #010101;
-  margin:30px;
-  } 
-.bottom {
-  margin-top: 120px;
-  color: #3f6597;
-  font-size: 50px;
-  text-shadow: 1px 1px #575252;
-}
-#images {
-  margin-top: 200px;
-}
-.jackr {
-  animation: one 2s infinite;
-  animation-direction: alternate;
-  color: rgb(102, 100, 100);
-  font-size: 35px;
-  font-weight: bold;
-  margin-top: 30px; 
-  transform: rotateY(40deg);
-  text-shadow: 2px 1px #eeb54ab9;
-  font-family: 'Montserrat', sans-serif;;
- 
-}
-@keyframes one {
-  0% {
-    transform: rotateY(0);
- }
-  100% {
-    transform: rotateY(70deg);
- }
-}
-.w {
-  width: 715px;
-  height: 120px;
-  background: red;
-  position: relative;
-  animation: wBox 8s infinite;
-  animation-direction: alternate;
-  padding: 20px;
-  color: rgb(10, 43, 116);
-  opacity: .6;
-  border-radius: 50%;
-}
-  .text {
-font-size: 100px;
-text-align: center;
-}
-@keyframes wBox {
-  0%   {background: red; left: 10px; top: 0px;}
-  25%  {background: yellow; left: 1400px; top: 0px;}
-  50%  {background: blue; left: 1400px; top: 450px;}
-  75%  {background: green; left: 10px; top: 450px;}
-  100% {background: red; left: 10px; top: 0px;}
-}
-.back {
-  width: 350px;
-  height: 110px;
-  background: green;
-  position: relative;
-  animation: backBox 9s infinite;
-  animation-direction: normal;
-  padding: 25px;
-  color: rgb(10, 43, 116);
-  opacity: .6;
-  border-radius: 20%;
-}
-  .text {
-font-size: 100px;
-text-align: center;
-}
-@keyframes backBox {
-  0%   {background: green; left: 0px; top: 0px;}
-  25%  {background: red; left: 0px; top: 150px;}
-  50%  {background: yellow; left: 1700px; top: 150px;}
-  75%  {background: blue; left: 1700px; top: 0px;}
-  100% {background: green; left: 0px; top: 0px;}
-}
-@media only screen and (max-width: 961px) {
-  header {
-    display: flex;
-    flex-direction: column;
-  }
-  container {
-    display: flex;
+  @media only screen and (max-width: 961px) {
+    header {
+      display: flex;
+      flex-direction: column;
+    }
+    container {
+      display: flex;
     flex-direction: column;
   }
 }
