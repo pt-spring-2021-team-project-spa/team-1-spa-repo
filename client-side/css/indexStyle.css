@@ -72,7 +72,7 @@ body {
     font-size: 850%;
    }
   .back {
-    animation: backBox 13s infinite;
+    animation: backBox 11s infinite;
     animation-direction: normal;
     background: green;
     border-radius: 20%;
@@ -87,9 +87,9 @@ body {
   }
   @keyframes backBox {
     0%   {background: green; left: 0px; top: 0px;}
-    25%  {background: red; left: 0px; top: 150px;}
+    25%  {background: blue; left: 0px; top: 150px;}
     50%  {background: yellow; left: 1750px; top: 150px;}
-    75%  {background: blue; left: 1750px; top: 0px;}
+    75%  {background: red; left: 1750px; top: 0px;}
     100% {background: greenyellow; left: 0px; top: 0px;}
   }
   .center {
