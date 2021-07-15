@@ -36,7 +36,7 @@ body {
     to {left: 2800px;}
   }
   .w {
-    animation: wBox 9s infinite;
+    animation: wBox 11s infinite;
     animation-direction: alternate;
     background: red;
     border-radius: 50%;
@@ -54,15 +54,15 @@ body {
     text-align: center;
     }
     @keyframes wBox {
-      0%   {background: red; left: 10px; top: 0px;}
-      25%  {background: yellow; left: 1400px; top: 0px;}
-      50%  {background: blue; left: 1400px; top: 450px;}
-      75%  {background: green; left: 10px; top: 450px;}
-      100% {background: red; left: 10px; top: 0px;}
+      0%   {background: blue; left: 10px; top: 0px;}
+      25%  {background: green; left: 1400px; top: 0px;}
+      50%  {background: red; left: 1400px; top: 450px;}
+      75%  {background: yellow; left: 10px; top: 450px;}
+      100% {background: yellowgreen; left: 10px; top: 0px;}
     }
   .entBtn {
     text-align: center;
-    color: #6C6B63;
+    color: #40403B;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 100px;
     margin-top: 150px;
@@ -72,11 +72,11 @@ body {
     font-size: 850%;
    }
   .back {
-    animation: backBox 9s infinite;
+    animation: backBox 13s infinite;
     animation-direction: normal;
     background: green;
     border-radius: 20%;
-    box-shadow: 5px 3px 6px #353434;
+    box-shadow: 4px 2px 5px #353434;
     color: rgb(10, 43, 116);
     font-family: 'Montserrat', sans-serif;
     height: 110px;
@@ -90,7 +90,7 @@ body {
     25%  {background: red; left: 0px; top: 150px;}
     50%  {background: yellow; left: 1750px; top: 150px;}
     75%  {background: blue; left: 1750px; top: 0px;}
-    100% {background: green; left: 0px; top: 0px;}
+    100% {background: greenyellow; left: 0px; top: 0px;}
   }
   .center {
     text-align: center;
