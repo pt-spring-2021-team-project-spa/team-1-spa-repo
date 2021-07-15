@@ -1,13 +1,13 @@
-import MetMuseum from '..components/MetMuseum.js';
+import MetMuseum from '../components/MetMuseum.js';
 
-export default function MetMuseum(metMuseum) {
+export default function MetMuseum(paintings) {
     return `
-    <h1>You Chose the Met Museum!</h1>
-    <div class'met_museum__container'>
-    ${metMuseum.results.map((metMuseum) => {
-        console.log(metMuseum);
-    }).join('')}
-    </div>
-    ${MetMuseum(metMuseum)}
-    `;
+  <h1>You Chose the Met Museum</h1>
+  <section class='met_museum__description_container'>
+  <div class='met_museum__description_article'>
+      <p>Some placeholder stuff to talk about how cool the MetMuseum is</p>
+  </div>
+  </section>
+    ${MetMuseum(paintings)}
+    `
 }
