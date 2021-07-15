@@ -1,9 +1,6 @@
 package org.wecancodeit.mysteryeducator.models;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.ManyToOne;
+import javax.persistence.*;
 import java.util.Objects;
 
 @Entity
@@ -14,6 +11,7 @@ public class Animal {
     private Long id;
 
     private String animalName;
+    @Lob
     private String description;
     private String yearWentExtinct;
     private String image;
