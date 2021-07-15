@@ -3,17 +3,17 @@ import HomePageHeader from './components/HomePageHeader.js';
 import HomePage from './pages/HomePage.js';
 import ReviewsPage from './pages/ReviewsPage.js';
 
-
 buildPage();
 
 function buildPage() {
     navigateToHomePage();
     homePageHeader();
-    footer(); 
     navigateToReviewsPage();
     interactWithDoor();
     interactWithSlideshow();
+    footer();
 }
+
 function homePageHeader() {
     const headerElement = document.querySelector('.header');
     headerElement.innerHTML = HomePageHeader();
@@ -31,6 +31,7 @@ function navigateToHomePage() {
       app.innerHTML = HomePage();
     });
   }
+
 function navigateToReviewsPage() {
   const reviewBtn = document.querySelector('.nav__list_reviews');
   reviewBtn.addEventListener('click', () => {
@@ -38,6 +39,7 @@ function navigateToReviewsPage() {
     app.innerHTML = ReviewsPage();
   });
 } 
+
 function interactWithDoor() {
  const app = document.querySelector('#app'); 
   app.addEventListener('click', (event) => {
@@ -50,6 +52,7 @@ function interactWithDoor() {
      }
    });
   }
+
 function interactWithSlideshow() {
   const imgDiv = document.querySelector('#images');
   imgDiv.addEventListener('click', (event) => {
@@ -58,5 +61,6 @@ function interactWithSlideshow() {
     }
 });
 }
+
 
  
