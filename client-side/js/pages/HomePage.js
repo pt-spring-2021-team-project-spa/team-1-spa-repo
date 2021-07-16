@@ -1,6 +1,6 @@
 import HomePageHeader from '../components/HomePageHeader';
 import Door from '../components/Door';
-
+import Footer from '../components/Footer';
 
 export default function HomePage() {
     return `
@@ -13,6 +13,7 @@ export default function HomePage() {
           <div class="bottom">
           <h3 class="hp-choice"> CHOOSE A DOOR</h3>
           </div>
+          ${Footer()}
           </div>
           
     `;    
