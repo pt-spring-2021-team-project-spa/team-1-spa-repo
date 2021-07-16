@@ -10,6 +10,7 @@ import org.wecancodeit.mysteryeducator.models.Continent;
 import org.wecancodeit.mysteryeducator.repos.AnimalRepository;
 
 import javax.annotation.Resource;
+import java.util.Optional;
 
 @Controller
 public class AnimalController {
@@ -17,16 +18,24 @@ public class AnimalController {
     @Resource
     private AnimalRepository animalRepo;
 
-    @RequestMapping({"/animals"})
-    public String displayAnimalss(Model model) {
-        model.addAttribute("animals", animalRepo.findAll());
-        return "animalsView";
-    }
+//    @RequestMapping({"/animals"})
+//    public String displayAnimals(Model model) {
+//        model.addAttribute("animals", animalRepo.findAll());
+//        return "animalsView";
+//    }
 
-    @GetMapping("/animals/{continent}")
-    public String displaySingleAnimal(@PathVariable String continent, Model model) {
-        Animal retrievedAnimal = animalRepo.findAnimalByContinent(continent);
-        model.addAttribute("campus", retrievedAnimal);
-        return "animalView";
-    }
+//    @GetMapping("/animals/{continent}")
+//    public String displaySingleAnimal(@PathVariable String continent, Model model) {
+//        Animal retrievedAnimal = animalRepo.findAnimalByContinent(continent);
+//        model.addAttribute("campus", retrievedAnimal);
+//        return "animalView";
+//    }
+
+//    @GetMapping("/animals/{id}")
+//    public String displaySingleAnimal(@PathVariable Long id, Model model) {
+//        Optional<Animal> retrievedAnimal = animalRepo.findById(id);
+//        model.addAttribute("id", retrievedAnimal);
+//        return "animalView";
+//
+//    }
 }
