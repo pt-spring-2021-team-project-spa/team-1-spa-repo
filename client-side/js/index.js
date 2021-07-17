@@ -7,6 +7,7 @@ import OurOfficesPage from './pages/OurOfficesPage.js';
 import WeAreHiringPage from './pages/WeAreHiringPage.js';
 import GamesPage from './pages/GamesPage.js';
 
+
 buildPage();
 
 function buildPage() {
@@ -76,3 +77,5 @@ function navigateToGamesPage() {
       app.innerHTML = GamesPage();
     });
 }
+}
+

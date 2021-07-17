@@ -7,7 +7,7 @@ export default function Footer() {
         <ul><img class='iconTwitter' src="$-{iconTwitter1}" alt='twitter'> <img class='iconTwitter' src="iconTwitter2" alt='twitter'> Twitter</img></ul>
         <ul><img class='iconInstagram' src="iconInstagram1" alt='instagram'> <img class='iconInstagram' src="iconInstagram2" alt='instagram'> Instagram</img></ul>
         <ul><img class='iconYouTube' src="iconYouTube1" alt='youTube'> <img class='iconYouTube' src="iconYouTube2" alt='youTube'> YouTube</img></ul>
-        <ul><img class='iconLinkedIn' src="iconLinkedIn1" alt='linkedIn'> <img class='iconLinkedIn' src="iconLinkedIn2" alt='linkedIn'> LinkedIn</img></ul>
+        <ul><img class="fa fa-linkedin" aria-hidden="true">LinkedIn</img></ul>
     </ul>
 
     </div>

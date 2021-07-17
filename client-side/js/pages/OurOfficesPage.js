@@ -1,5 +1,9 @@
+import '../../css/ourOfficesStyle.css';
+
+
 export default function OurOfficesPage(){
     return `
+        <div class='ourOfficesPage'>
         <h1>Regional Offices</h1>
         <h2>Global partnership for positive impact</h2>
         <p>For more than 5 years, JacKr Academy has galvanized millions of parents, educators, industry partners, and policymakers 
@@ -7,9 +11,10 @@ export default function OurOfficesPage(){
         partnerships and expanding our reach so that kids, families, and schools everywhere have a trusted resource in today's 
         fast-changing digital landscape. Currently we have offices in the following location. 
         </p>
-        <ul><img class='Ohio' src="Ohio" alt='Ohio'> Ohio</img></ul>
+        <ul><img class='Ohio' src="ohio" alt='Ohio'> Ohio</img></ul>
         <ul><img class='Hawaii' src="Hawaii" alt='Hawaii'> Hawaii</img></ul>
         <ul><img class='Singapore' src="Singapore" alt='Singapore'> Singapore</img></ul>
         <ul><img class='Bali' src="Bali" alt='Bali'> Bali</img></ul>
+        </div>
     `;
 }
