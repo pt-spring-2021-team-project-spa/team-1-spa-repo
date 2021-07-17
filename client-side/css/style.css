@@ -1,0 +1,29 @@
+.header__nav_list {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+}
+
+.header__nav_list button {
+  background-color: grey;
+  border-radius: 4px;
+  color: white;
+  margin-left: 5px;
+  padding: 10px;
+}
+
+.header__nav_list button:hover {
+  background-color: blueviolet;
+  color: yellowgreen;
+}
+
+.home__page_header {
+  color:purple;
+}
+
+.footer {
+  color: green;
+}
+
+

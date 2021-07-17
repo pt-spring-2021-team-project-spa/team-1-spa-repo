@@ -1,9 +1,5 @@
-import Footer from '../components/Footer.js'
-
 export default function AboutUsPage() {
     return `
-    ${HomePageHeader()}
-
     <h1>You know your kids. We know media and tech.</h1>
     <h1>Together we can build a digital world where our kids can learn, achieve, and have fun.</h1>
     <br>
@@ -22,7 +18,5 @@ export default function AboutUsPage() {
     <p>Jackr Academy  is an independent voice for kids, families, and communities everywhere. We combine original research with game-changing advocacy efforts to make 
     the digital world work better for kids. Our advocacy work highlights legislation related to technology and identifies solutions that protect consumer privacy, 
     push for better connectivity for students and families, and hold tech companies accountable to ensure healthy digital information for all.</p>
-
-    ${Footer()}
     `;
 }
