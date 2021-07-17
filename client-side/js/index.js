@@ -6,6 +6,7 @@ import MeetOurTeamPage from './pages/MeetOurTeamPage';
 import OurOfficesPage from './pages/OurOfficesPage.js';
 import WeAreHiringPage from './pages/WeAreHiringPage.js';
 import GamesPage from './pages/GamesPage.js';
+import DonatePage from './pages/DonatePage.js';
 
 
 buildPage();
@@ -15,6 +16,7 @@ function buildPage() {
     header();
     navigateToHomePage();
     navigateToAboutUsPage();
+    navigateToDonatePage();
     navigateToMeetOurTeamPage();   
     navigateToOurOfficesPage();
     navigateToWeAreHiringPage();
@@ -23,6 +25,14 @@ function buildPage() {
 function footer() {
     const footerElement = document.querySelector('.footer');
     footerElement.innerHTML = Footer();
+}
+
+function navigateToDonatePage() {
+  const DonateButton = document.querySelector('.nav__list_donate');
+  DonateButton.addEventListener('click', () => {
+    const app = document.querySelector('#app');
+    app.innerHTML = DonatePage();
+  })
 }
 
 function header() {
