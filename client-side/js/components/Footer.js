@@ -14,3 +14,4 @@ export default function Footer() {
       <small>&copy WCCI-Team-One 2021</small>
       `;
   }
+

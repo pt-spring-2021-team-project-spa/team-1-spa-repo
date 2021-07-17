@@ -7,8 +7,6 @@ import OurOfficesPage from './pages/OurOfficesPage.js';
 import WeAreHiringPage from './pages/WeAreHiringPage.js';
 import GamesPage from './pages/GamesPage.js';
 
-
-
 buildPage();
 
 function buildPage() {
@@ -20,8 +18,6 @@ function buildPage() {
     navigateToOurOfficesPage();
     navigateToWeAreHiringPage();
     navigateToGamesPage();
-
-}
 
 function footer() {
     const footerElement = document.querySelector('.footer');
@@ -80,4 +76,3 @@ function navigateToGamesPage() {
       app.innerHTML = GamesPage();
     });
 }
-

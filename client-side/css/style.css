@@ -13,17 +13,15 @@
   padding: 10px;
 }
 
-.header__nav_list button:hover {
-  background-color: blueviolet;
-  color: yellowgreen;
-}
-
-.home__page_header {
-  color:purple;
-}
-
 .footer {
   color: green;
 }
 
+.header__nav_list button:hover {
+    background-color: blueviolet;
+    color: yellowgreen;
+}
 
+.home__page_header {
+    color:purple;
+}
