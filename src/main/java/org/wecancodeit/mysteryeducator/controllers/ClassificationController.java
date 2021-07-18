@@ -16,9 +16,9 @@ public class ClassificationController {
     @Resource
     private ClassificationRepository classificationRepo;
 
-    @RequestMapping({"/classifications"})
-    public String displayClassifications(Model model) {
-        model.addAttribute("classifications", classificationRepo.findAll());
-        return "classificationsView";
-    }
+//    @RequestMapping({"/classifications"})
+//    public String displayClassifications(Model model) {
+//        model.addAttribute("classifications", classificationRepo.findAll());
+//        return "classificationsView";
+//    }
 }
