@@ -1,15 +1,16 @@
 .header__nav_list {
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 1rem;
+  justify-content: center;
+  align-items: center;
 }
 
 .header__nav_list button {
-  background-color: grey;
+  display: flex;
+  flex-direction: column;
+  background-color: darkcyan;
   border-radius: 4px;
+  align-items: center;
   color: white;
-  margin-left: 5px;
   padding: 10px;
 }
 

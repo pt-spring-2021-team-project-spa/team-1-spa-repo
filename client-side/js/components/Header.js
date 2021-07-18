@@ -10,6 +10,8 @@ export default function Header() {
           <button class='nav__list_donate'>Donate</button>
           <button class='nav__list_we_are_hiring'>We're Hiring</button>
           <button class='nav__list_games'>Games</button>
+          <button class='nav__list_nasaCard'>NASA</button>
+          <button class='nav__list_nasaCards'>NASA List</button>
       </li>
       `;
 }

@@ -7,6 +7,9 @@ import OurOfficesPage from './pages/OurOfficesPage.js';
 import WeAreHiringPage from './pages/WeAreHiringPage.js';
 import GamesPage from './pages/GamesPage.js';
 import DonatePage from './pages/DonatePage.js';
+import NasaCardsPage from './pages/NasaCardsPage.js';
+import NasaCardPage from './pages/NasaCardPage.js';
+import apiActions from './api-actions/api-actions.js';
 
 
 buildPage();
@@ -21,6 +24,8 @@ function buildPage() {
     navigateToOurOfficesPage();
     navigateToWeAreHiringPage();
     navigateToGamesPage();
+    renderNasaCardList();
+    renderNasaCard();
 
 function footer() {
     const footerElement = document.querySelector('.footer');
@@ -87,5 +92,17 @@ function navigateToGamesPage() {
       app.innerHTML = GamesPage();
     });
 }
-}
 
+function renderNasaCardList() {
+  const nasaCardsButton = document.querySelector('.nav__list_nasaCards');
+  nasaCardsButton.addEventListener('click', () => {
+    const app = document.querySelector('#app');
+    apiActions.getRequest(
+      'https://images-api.nasa.gov/search?keywords=(astronaut)or(portrait)or(apollo)',
+      (nasaCards) => {
+        app.innerHTML = NasaCardsPage(nasaCards);
+      }
+    );
+  });
+}
+}

@@ -1,5 +1,8 @@
+import '../../css/weAreHiringStyle.css';
+
 export default function WeAreHiringPage() {
     return `
+    <div class='weAreHiringPage'>
     <h1>We are Hiring</h1>
     <p>Thank you for considering JacKr Academy as a place to work. We feel strongly about hiring smart, passionate, creative people who 
     want to improve the media and technology landscape for kids, families, and schools. Here you will find answers to the most 
@@ -25,7 +28,7 @@ export default function WeAreHiringPage() {
     <br>
     <p>Singapore & Bali - Coming Soon</p>
     <p>Ohio - Coming Soon</p>
-
+    </div>
 
     `;
 }

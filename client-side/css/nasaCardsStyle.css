@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+.nasaCardsPage{
+  background: #A3C5B9;  
+  margin-top: 0px; 
+  width: 98.95%;   
+  padding: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 100%;
+}
+
+  .nasa__cards_container {
+    align-items: center;
+    background: cadetblue;    
+    background-image: url("../js/images/sprinkles.png");
+    font-family: 'Montserrat', sans-serif;
+    font-size: 80%;
+    border-radius: 10px;  
+    padding: 15px;
+    display: grid;
+    grid-row-gap: 1rem;
+    grid-column-gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+

@@ -18,8 +18,8 @@ export default function AboutUsPage() {
     students can thrive, find their passion, and learn at the pace that's right for them.</p>
     <br>
     
-    <h2>Here's how Jackr Academy does it:</h2>
-    <p>Jackr Academy  is an independent voice for kids, families, and communities everywhere. We combine original research with game-changing advocacy efforts to make 
+    <h2>Here's how JacKr Academy does it:</h2>
+    <p>JacKr Academy  is an independent voice for kids, families, and communities everywhere. We combine original research with game-changing advocacy efforts to make 
     the digital world work better for kids. Our advocacy work highlights legislation related to technology and identifies solutions that protect consumer privacy, 
     push for better connectivity for students and families, and hold tech companies accountable to ensure healthy digital information for all.</p>
     

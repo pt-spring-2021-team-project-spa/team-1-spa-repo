@@ -1,6 +1,8 @@
-export default function AboutUsPage() {
+import '../../css/meetOurTeamStyle.css';
+
+export default function MeetOurTeamPage() {
     return `
-    
+    <div class='meetOurTeamPage'>
     <h1>Executive Leadership Team</h1>
     <br>
 
@@ -28,6 +30,6 @@ export default function AboutUsPage() {
     <p><i>Chief Marketing Officer</i></p>
     <img class="yuli" src="yuli" alt="Yuli"></img>
     <br>
-
+    </div>
     `;
 }

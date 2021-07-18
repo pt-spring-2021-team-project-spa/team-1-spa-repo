@@ -1,6 +1,5 @@
 import '../../css/ourOfficesStyle.css';
 
-
 export default function OurOfficesPage(){
     return `
         <div class='ourOfficesPage'>
@@ -11,10 +10,10 @@ export default function OurOfficesPage(){
         partnerships and expanding our reach so that kids, families, and schools everywhere have a trusted resource in today's 
         fast-changing digital landscape. Currently we have offices in the following location. 
         </p>
-        <ul><img class='Ohio' src="ohio" alt='Ohio'> Ohio</img></ul>
-        <ul><img class='Hawaii' src="Hawaii" alt='Hawaii'> Hawaii</img></ul>
-        <ul><img class='Singapore' src="Singapore" alt='Singapore'> Singapore</img></ul>
-        <ul><img class='Bali' src="Bali" alt='Bali'> Bali</img></ul>
+        <ul><img class='Ohio' src='ohio' alt='Ohio'> Ohio</img></ul>
+        <ul><img class='Hawaii' src='hawaii' alt='Hawaii'> Hawaii</img></ul>
+        <ul><img class='Singapore' src='singapore' alt='Singapore'> Singapore</img></ul>
+        <ul><img class='Bali' src='bali' alt='Bali'> Bali</img></ul>
         </div>
     `;
 }
