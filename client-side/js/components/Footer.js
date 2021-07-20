@@ -1,5 +1,7 @@
+  
 export default function Footer() {
     return `
-      <small>&copy wcci-team-one 2021</small>
+
+      <small>&copy WCCI-Team-One 2021</small>
       `;
   }

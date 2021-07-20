@@ -1,19 +1,19 @@
 import HomePageHeader from '../components/HomePageHeader';
-import Door from '../components/Door';
-
+import Doors from '../components/Door.js'; 
 
 export default function HomePage() {
     return `
-    <div class="center">
+    <body onclick="myFunction(event)">
           ${HomePageHeader()}
-          <div class="txt-hp">
+          <div class='center'>
+           <div class="txt-hp">
           <h1 class="hp-title">CAN YOU NAME THAT YEAR</h1>
           </div>
-         ${Door()}
-          <div class="bottom">
+          ${Doors()}
+          <div class="txt-hp bottom">
           <h3 class="hp-choice"> CHOOSE A DOOR</h3>
           </div>
           </div>
-          
-    `;    
+
+          `;
 }

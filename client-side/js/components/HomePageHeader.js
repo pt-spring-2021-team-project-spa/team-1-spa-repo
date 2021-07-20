@@ -6,6 +6,7 @@ export default function HomePageHeader() {
         <li class='nav__list_developers'>Developers</li>
         <li class='nav__list_contactUs'>Contact Us</li>
         <li class='nav__list_reviews'>Reviews</li>
+        <li class='nav__list_blog'>Blog</li>
     </ul>
     <p class="jackr"> JACKR ACADEMY PRESENTS</p>
     </div>

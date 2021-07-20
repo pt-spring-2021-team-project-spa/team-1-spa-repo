@@ -1,62 +1,57 @@
-import Footer from './components/Footer.js';
 import HomePageHeader from './components/HomePageHeader.js';
 import HomePage from './pages/HomePage.js';
-import ReviewsPage from './pages/ReviewsPage.js';
-
+import ReviewPage from './pages/ReviewPage.js';
+import BlogPage from './pages/BlogPage.js';
 
 buildPage();
 
-function buildPage() {
-    navigateToHomePage();
+function buildPage() { 
     homePageHeader();
-    footer(); 
+    navigateToBlogPage();
+    navigateToHomePage();
     navigateToReviewsPage();
-    interactWithDoor();
-    interactWithSlideshow();
+    slideShow(); 
 }
 function homePageHeader() {
     const headerElement = document.querySelector('.header');
     headerElement.innerHTML = HomePageHeader();
   }
-  
-function footer() {
-    const footerElement = document.querySelector('.footer');
-    footerElement.innerHTML = Footer();
-  }
-
-function navigateToHomePage() {
-    const enterBtn = document.querySelector('.entBtn');
+  function navigateToHomePage() {
+    const enterBtn = document.querySelector('.enter');
     enterBtn.addEventListener('click', () => {
       const app = document.querySelector('#app');
       app.innerHTML = HomePage();
     });
   }
-function navigateToReviewsPage() {
-  const reviewBtn = document.querySelector('.nav__list_reviews');
-  reviewBtn.addEventListener('click', () => {
-    const app = document.querySelector('#app');
-    app.innerHTML = ReviewsPage();
-  });
-} 
-function interactWithDoor() {
- const app = document.querySelector('#app'); 
-  app.addEventListener('click', (event) => {
-      if (event.target.classList.contains('door')) {
-        console.log(event.taget);
-      const doorEle = document.querySelector('.door');
-      doorEle.addEventListener('click', () => {
-      doorEle.classList.toggle("doorOpen");      
-      })
-     }
-   });
-  }
-function interactWithSlideshow() {
-  const imgDiv = document.querySelector('#images');
-  imgDiv.addEventListener('click', (event) => {
-    if (event.target.classList.contains('blueD')) {
-      console.log(event.target);
+ function slideShow() {
+    const slideshows = document.querySelectorAll('[data-component="slideshow"]');
+    slideshows.forEach(initSlideShow);
+    function initSlideShow(slideshow) {
+    var slides = document.querySelectorAll(`#${slideshow.id} [role="list"] .slide`); 
+    var index = 0, time = 5000;
+    slides[index].classList.add('active');  
+    setInterval( () => {
+    slides[index].classList.remove('active');
+    index++;
+    if (index === slides.length) index = 0; 
+    slides[index].classList.add('active');
+    }, time);
     }
-});
-}
+  }
+  function navigateToReviewsPage() {
+    const reviewBtn = document.querySelector('.review');
+    reviewBtn.addEventListener('click', () => {  
+      const app = document.querySelector('#app');
+      app.innerHTML = ReviewPage();
+    });
+  }
+  function navigateToBlogPage() {
+    const reviewBtn = document.querySelector('.blog');
+    reviewBtn.addEventListener('click', () => { 
+      const app = document.querySelector('#app');
+      app.innerHTML = BlogPage();
+    });
+  }
+ 
 
  
