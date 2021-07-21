@@ -169,6 +169,150 @@ function buildNasaListPage() {
   navigateToNasaCardPage();
   navigateToNasaListPage();
 }
+function buildHomePage() {
+  navigateToHomePageByNavButton();
+  navigateToAboutUsPage();
+  navigateToMeetOurTeamPage();
+  navigateToOurOfficesPage();
+  navigateToBlogPage();
+  navigateToReviewPage(); 
+  navigateToDonatePage(); 
+  navigateToWeAreHiringPage();
+  navigateToGamesPage();
+  navigateToNasaCardPage();
+  navigateToNasaListPage(); 
+}
+function buildAboutUsPage() {
+  navigateToHomePageByNavButton();
+  navigateToAboutUsPage();
+  navigateToMeetOurTeamPage();
+  navigateToOurOfficesPage();
+  navigateToBlogPage();
+  navigateToReviewPage(); 
+  navigateToDonatePage(); 
+  navigateToWeAreHiringPage();
+  navigateToGamesPage();
+  navigateToNasaCardPage();
+  navigateToNasaListPage();
+}
+function buildMeetOurTeamPage() {
+  navigateToHomePageByNavButton();
+  navigateToAboutUsPage();
+  navigateToMeetOurTeamPage();
+  navigateToOurOfficesPage();
+  navigateToBlogPage();
+  navigateToReviewPage(); 
+  navigateToDonatePage(); 
+  navigateToWeAreHiringPage();
+  navigateToGamesPage();
+  navigateToNasaCardPage();
+  navigateToNasaListPage();
+}
+function buildOurOfficesPage() {
+  navigateToHomePageByNavButton();
+  navigateToAboutUsPage();
+  navigateToMeetOurTeamPage();
+  navigateToOurOfficesPage();
+  navigateToBlogPage();
+  navigateToReviewPage(); 
+  navigateToDonatePage(); 
+  navigateToWeAreHiringPage();
+  navigateToGamesPage();
+  navigateToNasaCardPage();
+  navigateToNasaListPage();
+}
+function buildBlogPage() {
+  navigateToHomePageByNavButton();
+  navigateToAboutUsPage();
+  navigateToMeetOurTeamPage();
+  navigateToOurOfficesPage();
+  navigateToBlogPage();
+  navigateToReviewPage(); 
+  navigateToDonatePage(); 
+  navigateToWeAreHiringPage();
+  navigateToGamesPage();
+  navigateToNasaCardPage();
+  navigateToNasaListPage();
+}
+function buildReviewPage() {
+  navigateToHomePageByNavButton();
+  navigateToAboutUsPage();
+  navigateToMeetOurTeamPage();
+  navigateToOurOfficesPage();
+  navigateToBlogPage();
+  navigateToReviewPage(); 
+  navigateToDonatePage(); 
+  navigateToWeAreHiringPage();
+  navigateToGamesPage();
+  navigateToNasaCardPage();
+  navigateToNasaListPage();
+}
+function buildDonatePage() {
+  navigateToHomePageByNavButton();
+  navigateToAboutUsPage();
+  navigateToMeetOurTeamPage();
+  navigateToOurOfficesPage();
+  navigateToBlogPage();
+  navigateToReviewPage(); 
+  navigateToDonatePage(); 
+  navigateToWeAreHiringPage();
+  navigateToGamesPage();
+  navigateToNasaCardPage();
+  navigateToNasaListPage();
+}
+function buildWeAreHiringPage() {
+  navigateToHomePageByNavButton();
+  navigateToAboutUsPage();
+  navigateToMeetOurTeamPage();
+  navigateToOurOfficesPage();
+  navigateToBlogPage();
+  navigateToReviewPage(); 
+  navigateToDonatePage(); 
+  navigateToWeAreHiringPage();
+  navigateToGamesPage();
+  navigateToNasaCardPage();
+  navigateToNasaListPage();
+}
+function buildGamesPage() {
+  navigateToHomePageByNavButton();
+  navigateToAboutUsPage();
+  navigateToMeetOurTeamPage();
+  navigateToOurOfficesPage();
+  navigateToBlogPage();
+  navigateToReviewPage(); 
+  navigateToDonatePage(); 
+  navigateToWeAreHiringPage();
+  navigateToGamesPage();
+  navigateToNasaCardPage();
+  navigateToNasaListPage();
+}
+function buildNasaCardPage() {
+  navigateToHomePageByNavButton();
+  navigateToAboutUsPage();
+  navigateToMeetOurTeamPage();
+  navigateToOurOfficesPage();
+  navigateToBlogPage();
+  navigateToReviewPage(); 
+  navigateToDonatePage(); 
+  navigateToWeAreHiringPage();
+  navigateToGamesPage();
+  navigateToNasaCardPage();
+  navigateToNasaListPage();
+}
+function buildNasaListPage() {
+  navigateToHomePageByNavButton();
+  navigateToAboutUsPage();
+  navigateToMeetOurTeamPage();
+  navigateToOurOfficesPage();
+  navigateToBlogPage();
+  navigateToReviewPage(); 
+  navigateToDonatePage(); 
+  navigateToWeAreHiringPage();
+  navigateToGamesPage();
+  navigateToNasaCardPage();
+  navigateToNasaListPage();
+}
+
 function homePageHeader() {
     const headerElement = document.querySelector('.header');
     headerElement.innerHTML = HomePageHeader();

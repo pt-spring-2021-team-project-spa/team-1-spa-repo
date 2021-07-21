@@ -1,7 +1,9 @@
 import '../../css/DonateStyle.css';
+import HomePageHeader from '../components/HomePageHeader';
 
 export default function DonatePage() {
     return `
+    ${HomePageHeader()}
     <div class="donationBody">
             <h2>Make a Gift to JacKr Enterprises Charities</h2>
             <p>Your gift is 100% tax-deductible</p>

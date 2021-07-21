@@ -1,7 +1,9 @@
 import '../../css/meetOurTeamStyle.css';
+import HomePageHeader from '../components/HomePageHeader';
 
 export default function MeetOurTeamPage() {
     return `
+    ${HomePageHeader()}
     <div class='meetOurTeamPage'>
     <h1>Executive Leadership Team</h1>
     <br>

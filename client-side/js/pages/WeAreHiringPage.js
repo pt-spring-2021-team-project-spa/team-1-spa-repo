@@ -1,7 +1,9 @@
 import '../../css/weAreHiringStyle.css';
+import HomePageHeader from '../components/HomePageHeader';
 
 export default function WeAreHiringPage() {
     return `
+    ${HomePageHeader()}
     <div class='weAreHiringPage'>
     <h1>We are Hiring</h1>
     <p>Thank you for considering JacKr Academy as a place to work. We feel strongly about hiring smart, passionate, creative people who 
@@ -29,6 +31,5 @@ export default function WeAreHiringPage() {
     <p>Singapore & Bali - Coming Soon</p>
     <p>Ohio - Coming Soon</p>
     </div>
-
     `;
 }

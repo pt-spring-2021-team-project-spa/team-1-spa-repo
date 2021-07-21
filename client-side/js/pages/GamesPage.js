@@ -1,5 +1,8 @@
+import HomePageHeader from '../components/HomePageHeader';
+
 export default function GamesPage() {
     return `
+    ${HomePageHeader()}
     <h2>Welcome to the Games Page</h2>
     <h3>Available Games</h3>
     <a href="https://metmuseum.github.io/#search" target="blank">The Metropolitan Museum of Art Collection API</a>

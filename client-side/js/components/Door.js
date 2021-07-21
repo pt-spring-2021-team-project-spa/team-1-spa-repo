@@ -2,6 +2,7 @@ import '../../css/doorStyle.css';
 import doorImgB from '../images/door-b.jpg';
 import doorImgO from '../images/door-o.png';
 import doorImgY from '../images/door-y.jpg';
+
 export default function Door() {
     return `    
 <div class="images">

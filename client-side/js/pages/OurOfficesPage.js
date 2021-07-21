@@ -1,7 +1,9 @@
 import '../../css/ourOfficesStyle.css';
+import HomePageHeader from '../components/HomePageHeader';
 
-export default function OurOfficesPage(){
+export default function OurOfficesPage() {
     return `
+    ${HomePageHeader()}
         <div class='ourOfficesPage'>
         <h1>Regional Offices</h1>
         <h2>Global partnership for positive impact</h2>
