@@ -9,7 +9,6 @@ export default function Door() {
           <img class="blueD" src='${doorImgB}' alt='blue door' />
           <img class="orangeD" src='${doorImgO}' alt='orange door' />
           <img class="yellowD" src='${doorImgY}' alt='yellow door' />
-        </>
+        </div>
         `;
 }
-  

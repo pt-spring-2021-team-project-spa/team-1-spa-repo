@@ -1,0 +1,28 @@
+.header__nav_list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__nav_list button {
+  display: flex;
+  flex-direction: column;
+  background-color: darkcyan;
+  border-radius: 4px;
+  align-items: center;
+  color: white;
+  padding: 10px;
+}
+
+.footer {
+  color: green;
+}
+
+.header__nav_list button:hover {
+    background-color: blueviolet;
+    color: yellowgreen;
+}
+
+.home__page_header {
+    color:purple;
+}

@@ -11,12 +11,153 @@ import GamesPage from './pages/GamesPage.js';
 import NasaCardPage from './pages/NasaPage.js';
 import NasaListPage from './pages/NasaListPage.js';
 
-
 buildPage();
-
 function buildPage() { 
   homePageHeader();
   navigateToHomePageByEnterButton();
+  navigateToAboutUsPage();
+  navigateToMeetOurTeamPage();
+  navigateToOurOfficesPage();
+  navigateToBlogPage();
+  navigateToReviewPage(); 
+  navigateToDonatePage(); 
+  navigateToWeAreHiringPage();
+  navigateToGamesPage();
+  navigateToNasaCardPage();
+  navigateToNasaListPage();
+}
+function buildHomePage() {
+  navigateToHomePageByNavButton();
+  navigateToAboutUsPage();
+  navigateToMeetOurTeamPage();
+  navigateToOurOfficesPage();
+  navigateToBlogPage();
+  navigateToReviewPage(); 
+  navigateToDonatePage(); 
+  navigateToWeAreHiringPage();
+  navigateToGamesPage();
+  navigateToNasaCardPage();
+  navigateToNasaListPage(); 
+}
+function buildAboutUsPage() {
+  navigateToHomePageByNavButton();
+  navigateToAboutUsPage();
+  navigateToMeetOurTeamPage();
+  navigateToOurOfficesPage();
+  navigateToBlogPage();
+  navigateToReviewPage(); 
+  navigateToDonatePage(); 
+  navigateToWeAreHiringPage();
+  navigateToGamesPage();
+  navigateToNasaCardPage();
+  navigateToNasaListPage();
+}
+function buildMeetOurTeamPage() {
+  navigateToHomePageByNavButton();
+  navigateToAboutUsPage();
+  navigateToMeetOurTeamPage();
+  navigateToOurOfficesPage();
+  navigateToBlogPage();
+  navigateToReviewPage(); 
+  navigateToDonatePage(); 
+  navigateToWeAreHiringPage();
+  navigateToGamesPage();
+  navigateToNasaCardPage();
+  navigateToNasaListPage();
+}
+function buildOurOfficesPage() {
+  navigateToHomePageByNavButton();
+  navigateToAboutUsPage();
+  navigateToMeetOurTeamPage();
+  navigateToOurOfficesPage();
+  navigateToBlogPage();
+  navigateToReviewPage(); 
+  navigateToDonatePage(); 
+  navigateToWeAreHiringPage();
+  navigateToGamesPage();
+  navigateToNasaCardPage();
+  navigateToNasaListPage();
+}
+function buildBlogPage() {
+  navigateToHomePageByNavButton();
+  navigateToAboutUsPage();
+  navigateToMeetOurTeamPage();
+  navigateToOurOfficesPage();
+  navigateToBlogPage();
+  navigateToReviewPage(); 
+  navigateToDonatePage(); 
+  navigateToWeAreHiringPage();
+  navigateToGamesPage();
+  navigateToNasaCardPage();
+  navigateToNasaListPage();
+}
+function buildReviewPage() {
+  navigateToHomePageByNavButton();
+  navigateToAboutUsPage();
+  navigateToMeetOurTeamPage();
+  navigateToOurOfficesPage();
+  navigateToBlogPage();
+  navigateToReviewPage(); 
+  navigateToDonatePage(); 
+  navigateToWeAreHiringPage();
+  navigateToGamesPage();
+  navigateToNasaCardPage();
+  navigateToNasaListPage();
+}
+function buildDonatePage() {
+  navigateToHomePageByNavButton();
+  navigateToAboutUsPage();
+  navigateToMeetOurTeamPage();
+  navigateToOurOfficesPage();
+  navigateToBlogPage();
+  navigateToReviewPage(); 
+  navigateToDonatePage(); 
+  navigateToWeAreHiringPage();
+  navigateToGamesPage();
+  navigateToNasaCardPage();
+  navigateToNasaListPage();
+}
+function buildWeAreHiringPage() {
+  navigateToHomePageByNavButton();
+  navigateToAboutUsPage();
+  navigateToMeetOurTeamPage();
+  navigateToOurOfficesPage();
+  navigateToBlogPage();
+  navigateToReviewPage(); 
+  navigateToDonatePage(); 
+  navigateToWeAreHiringPage();
+  navigateToGamesPage();
+  navigateToNasaCardPage();
+  navigateToNasaListPage();
+}
+function buildGamesPage() {
+  navigateToHomePageByNavButton();
+  navigateToAboutUsPage();
+  navigateToMeetOurTeamPage();
+  navigateToOurOfficesPage();
+  navigateToBlogPage();
+  navigateToReviewPage(); 
+  navigateToDonatePage(); 
+  navigateToWeAreHiringPage();
+  navigateToGamesPage();
+  navigateToNasaCardPage();
+  navigateToNasaListPage();
+}
+function buildNasaCardPage() {
+  navigateToHomePageByNavButton();
+  navigateToAboutUsPage();
+  navigateToMeetOurTeamPage();
+  navigateToOurOfficesPage();
+  navigateToBlogPage();
+  navigateToReviewPage(); 
+  navigateToDonatePage(); 
+  navigateToWeAreHiringPage();
+  navigateToGamesPage();
+  navigateToNasaCardPage();
+  navigateToNasaListPage();
+}
+function buildNasaListPage() {
+  navigateToHomePageByNavButton();
   navigateToAboutUsPage();
   navigateToMeetOurTeamPage();
   navigateToOurOfficesPage();
@@ -296,4 +437,3 @@ function navigateToNasaListPage() {
     buildNasaListPage();
    });
 } 
- 
