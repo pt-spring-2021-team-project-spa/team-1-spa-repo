@@ -1,19 +1,50 @@
 @import url('http://fonts.googleapis.com/css2?family=Yomogi&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 
+.painting__article_container {
+    padding: 3rem;
+}
 
-/* #met_museum__container {
+.painting__article {
+    background-color: rgb(231, 235, 231);
+    margin-bottom: 1em;
+    padding: 5em;
+}
+
+.painting__article_info {
+    background-color: rgb(243, 236, 238);
+    padding: 3em;
+}
+
+.painting__article_data {
+    /* padding: 2em; */
+}
+
+.painting__article_description {
+    background-color: rgb(240, 234, 227);
+    padding: 2em;
+}
+
+#artist__name {
+    color: #316b3d;
+    font-family: 'Rock Salt', cursive;
+    text-align: justify;
+}
+
+.painting__image {
+    width: 50%;
+    height: 50%;
+}
+
+#met_museum__container {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     width: 100vw;
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     max-width: 80rem;
     margin: 0 auto;
-    padding: 2 rem;
+    padding: 2rem;
 }
 
 #met_museum__heading {
@@ -24,10 +55,6 @@
     font-family: 'Rock Salt', cursive;
 }
 
-.painting__title {
-    color: rgb(0, 0, 0);
-    font-family: 'Yomogi', cursive;
-}
 
 .flex_column {
     display: flex;
@@ -41,4 +68,33 @@
 
 .justify_center {
     justify-content: center;
-} */
+}
+
+/** Font Styling **/
+.yomogi_black {
+    color: rgb(0, 0, 0);
+    font-family: 'Yomogi', cursive;
+    font-weight: bold;
+}
+
+.yomogi_red {
+    color: rgb(190, 21, 21);
+    font-family: 'Yomogi', cursive;
+}
+
+.rock_salt_red__styling {
+    color: rgb(190, 21, 21);
+    font-family: 'Rock Salt', cursive;
+    font-size: 1rem;
+}
+
+.rock_salt_green__styling {
+    color: #316b3d;
+    font-family: 'Rock Salt', cursive;
+    font-size: 1.2rem;
+}
+
+.rock_salt_black__styling {
+    font-family: 'Rock Salt', cursive;
+    font-size: 1.2rem;
+}

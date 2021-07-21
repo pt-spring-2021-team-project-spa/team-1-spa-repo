@@ -7,9 +7,16 @@ function getRequest(location, callback) {
 
 function metMuseumPaintings(callback) {
     Promise.all([
-        fetch('https://collectionapi.metmuseum.org/public/collection/v1/objects/437133'),
-        fetch('https://collectionapi.metmuseum.org/public/collection/v1/objects/490037'),
-        fetch('https://collectionapi.metmuseum.org/public/collection/v1/objects/436524')
+        fetch('https://collectionapi.metmuseum.org/public/collection/v1/objects/436949'),
+        fetch('https://collectionapi.metmuseum.org/public/collection/v1/objects/45685'),
+        fetch('https://collectionapi.metmuseum.org/public/collection/v1/objects/437685'),
+        fetch('https://collectionapi.metmuseum.org/public/collection/v1/objects/436595'),
+        fetch('https://collectionapi.metmuseum.org/public/collection/v1/objects/437926'),
+        fetch('https://collectionapi.metmuseum.org/public/collection/v1/objects/436196'),
+        fetch('https://collectionapi.metmuseum.org/public/collection/v1/objects/10812'),
+        fetch('https://collectionapi.metmuseum.org/public/collection/v1/objects/437942'),
+        fetch('https://collectionapi.metmuseum.org/public/collection/v1/objects/435978'),
+        fetch('https://collectionapi.metmuseum.org/public/collection/v1/objects/57309')
     ]).then(function(responses) {
         return Promise.all(responses.map(function (response) {
             return response.json()

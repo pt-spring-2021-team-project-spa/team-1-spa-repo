@@ -1,31 +1,35 @@
-import apiActions from '../api-actions/api-actions.js';
-
 export default function PaintingsPage(paintings) {
     console.log(paintings)
     return `
-    <div id='met_museum__container' class='flex_column flex_center'>
-    <div id="met_museum__heading">MetMuseum</div>
+    <div id='met_museum__container'>
+    <section class='painting__article_container'>
+    <article class='painting__article'>
         ${paintings.map( painting => {
             return `
             ${painting.constituents.map((artist) => {
                 return `
-                <div class='painting__tile_container'>
-                <h2>${artist.name}</h2>
-                <h4>Occupation: ${artist.role}</h4>
-                </div>
+                <h2 id="artist__name">${artist.name}</h2>
                 `
             }).join('')}
-            <p class="painting__title">Title: ${painting.title.toString()}</p>
-            <h3>Year Painted: ${painting.objectDate.toString()}</h3>
-            ${painting.measurements.map((measurements) => {
-                console.log(measurements)
-            })}
+            <figure><img class='painting__image' src=${painting.primaryImage} alt='' /></figure>
+            <div class='painting__article_info'>
+            <div class='painting__article_data'>
+            <h3 class="painting__title yomogi_black">Title: ${painting.title.toString()}</h3>
+            <h3 class="painting__year_painted yomogi_red">Year Painted: ${painting.objectDate.toString()}</h3>
+
             ${painting.dimensions.toString((dimensions) => {
                 console.log(dimensions)
             })}
+            </div>
+            <div class='painting__article_description yomogi_black'>
+                <h2 class='yomogi_black'>Description</h3>
+                <p>Lorem ipsum dolor sit amet, <span class='rock_salt_red__styling'>consectetur adipiscing elit,</span> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation <span class='rock_salt_green__styling'>ullamco laboris nisi ut aliquip ex</span> ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore <span class='rock_salt_red__styling'>eu fugiat nulla pariatur.</span> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia <span class='rock_salt_black__styling'>deserunt mollit anim id est laborum.</span></p>
+            </div>
+            </div>
             `
         })}
-            
+        </article>
+        </section>
         </div>
         `;
 }

@@ -95,6 +95,10 @@ function navigateToGamesPage() {
   });
 }
 
+var NasaParam = [
+  'astronaut', 'moon', 'mars'
+]
+let NasaSearchParam = NasaParam[Math.floor(Math.random() * NasaParam.length)]
 function renderNasaCardList() {
   const nasaCardsButton = document.querySelector('.nav__list_nasaCards');
   nasaCardsButton.addEventListener('click', () => {
@@ -104,8 +108,8 @@ function renderNasaCardList() {
       (nasaCards) => {
         app.innerHTML = NasaCardsPage(nasaCards);
       });
-  });
-}
+    });
+  }
 
 function renderMetMuseum() {
   const metMuseumButton = document.querySelector('.nav__list_metMuseum');
@@ -114,9 +118,5 @@ function renderMetMuseum() {
     apiActions.metMuseumPaintings((paintings) => {
     app.innerHTML = PaintingsPage(paintings)
     });
-    // apiActions.getRequest('https://collectionapi.metmuseum.org/public/collection/v1/objects/437133',
-    // (paintings) => {
-    // app.innerHTML = PaintingsPage(paintings)
-    // });
   });
 }
