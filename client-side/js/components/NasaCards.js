@@ -12,6 +12,5 @@ export default function NasaCards(nasaCards) {
         })
         .join('')}
         </div>
-        </div>
       `;
   }

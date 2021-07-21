@@ -109,8 +109,8 @@ function renderNasaCardList() {
 function renderNasaCard() {
   const app = document.querySelector('#app');
   app.addEventListener('click', (event) => {
-    if (event.target.classList.contains('astronaut')) {
-      const nasaCardUrl =
+    if (event.target.classList.contains('nasa__card_title')) {
+      let nasaCardUrl =
         event.target.parentElement.querySelector('#nasaCardId').value;
       apiActions.getRequest(nasaCardUrl, (nasaCard) => {
         app.innerHTML = NasaCardPage(nasaCard);
