@@ -2,7 +2,7 @@
 
 
 body {
-  background: rgb(204, 247, 232);
+  background-image: url("../js/images/sprinkles.png");
   font-family: 'Montserrat', sans-serif;
   font-size: 80%;
   height: 1500px;
@@ -95,47 +95,89 @@ body {
     margin-right: -50px;
     padding-top: 10px;
   }
-  .nav__list li { 
-    background-color: #3f6597;
-    border-radius: 6px;
-    border-radius: 100%;
-    box-shadow: 4px 2px 6px #353434;
-    color: #f0f0f2;
-    cursor: pointer;
+  .nav__list button { 
+    display: flex;
+    flex-direction: column;
+    background-color: darkcyan;
+    border-radius: 4px;
+    align-items: center;
+    color: white;
+    padding: 10px;
     list-style-type: none;
     margin: 10px;
     opacity: .9;
-    padding: 8px;
   }
-  li.nav__list_home:hover {
+  button.nav__list_home:hover {
     background-color: #f0f0f2;
     box-shadow: 4px 2px 6px #010101;
     color: #3f6597;
     font-family: cursive;
     font-weight: bold;
   }
-  li.nav__list_developers:hover {
+  button.nav__list_about_us:hover {
     background-color: #f0f0f2;
     box-shadow: 4px 2px 6px #010101;
     color: #3f6597;
     font-family: cursive;
     font-weight: bold;
   }
-  li.nav__list_contactUs:hover {
+  button.nav__list_meet_our_team:hover {
     background-color: #f0f0f2;
     box-shadow: 4px 2px 6px #010101;
     color: #3f6597;
     font-family: cursive;
     font-weight: bold;
   }
-  li.nav__list_reviews:hover {
+  button.nav__list_our_offices:hover {
     background-color: #f0f0f2;
     box-shadow: 4px 2px 6px #010101;
     color: #3f6597;
     font-family: cursive;
     font-weight: bold;
   }
-  li.nav__list_blog:hover {
+  button.nav__list_reviews:hover {
+    background-color: #f0f0f2;
+    box-shadow: 4px 2px 6px #010101;
+    color: #3f6597;
+    font-family: cursive;
+    font-weight: bold;
+  }
+  button.nav__list_blog:hover {
+    background-color: #f0f0f2;
+    box-shadow: 4px 2px 6px #010101;
+    color: #3f6597;
+    font-family: cursive;
+    font-weight: bold;
+  }
+  button.nav__list_donate:hover {
+    background-color: #f0f0f2;
+    box-shadow: 4px 2px 6px #010101;
+    color: #3f6597;
+    font-family: cursive;
+    font-weight: bold;
+  }
+  button.nav__list_we_are_hiring:hover {
+    background-color: #f0f0f2;
+    box-shadow: 4px 2px 6px #010101;
+    color: #3f6597;
+    font-family: cursive;
+    font-weight: bold;
+  }
+  button.nav__list_games:hover {
+    background-color: #f0f0f2;
+    box-shadow: 4px 2px 6px #010101;
+    color: #3f6597;
+    font-family: cursive;
+    font-weight: bold;
+  }
+  button.nav__list_nasaCard:hover {
+    background-color: #f0f0f2;
+    box-shadow: 4px 2px 6px #010101;
+    color: #3f6597;
+    font-family: cursive;
+    font-weight: bold;
+  }
+  button.nav__list_nasaCards:hover {
     background-color: #f0f0f2;
     box-shadow: 4px 2px 6px #010101;
     color: #3f6597;

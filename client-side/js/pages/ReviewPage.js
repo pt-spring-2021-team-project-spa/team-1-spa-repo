@@ -28,9 +28,11 @@ import Twit6 from '../images/social_t_6.png';
 import Twit7 from '../images/social_t_7.png';
 import Twit8 from '../images/social_t_8.png';
 import Twit9 from '../images/social_t_9.png';
+import HomePageHeader from '../components/HomePageHeader';
 
 export default function ReviewPage() {
     return `
+    ${HomePageHeader()}
 <div class="top-image">
         <div class="top-text">
             <h2>"LOOK WHO SPILLED THE BEANS"</h2>
@@ -44,8 +46,8 @@ export default function ReviewPage() {
         <img class="reviewSS " src='${Review7}' alt='' />
         <img class="reviewSS " src='${Review8}' alt='' />
         </div>
-        <div id="slideshow item2" data-component="slideshow">
-        <div role="list">
+        <div id="slideshow item2" class="slideshow" data-component="slideshow">
+        <div class="slideShowList" role="list">
           <div class="slide">
             <img src="${Review2}" alt="">
           </div>
@@ -69,7 +71,7 @@ export default function ReviewPage() {
       </div>
       <hr class="rounded">
       <div class="insta">
-      <div id="slideshow item3" data-component="slideshow">
+      <div id="slideshow item3" class="slideshow"data-component="slideshow">
         <div role="list">     
           <div class="slide">
             <img src="${Insta5}" alt="">
@@ -102,7 +104,7 @@ export default function ReviewPage() {
       <img class="twit" src='${Twit3}' alt='' />
       <img class="twit" src='${Twit4}' alt='' />
       </div>
-      <div id="slideshow item7" data-component="slideshow">
+      <div id="slideshow item7" class="slideshow" data-component="slideshow">
       <div role="list">
         <div class="slide">
           <img src="${Twit5}" alt="">

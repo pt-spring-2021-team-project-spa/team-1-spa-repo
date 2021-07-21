@@ -40,9 +40,11 @@ import JackrTwit7 from '../images/Jackr_Twitter_7.png';
 import JackrTwit8 from '../images/Jackr_Twitter_8.png';
 import JackrTwit9 from '../images/Jackr_Twitter_9.png';
 import JackrTwit10 from '../images/Jackr_Twitter_10.png';
+import HomePageHeader from '../components/HomePageHeader';
 
 export default function BlogPage() {
     return `
+    ${HomePageHeader()}
     <div class="top-imageBlog">
     <div class="blogTopText1">
         <h2>BREAK TIME</h2>
