@@ -4,4 +4,3 @@
 		"*.{gif,jpg,png}": ["@parcel/transformer-raw"]
 	}
 }
-

@@ -66,8 +66,6 @@ public class Populator implements CommandLineRunner {
         animalRepo.save(westAfricanBlackRhino);
         animalRepo.save(greatAuk);
         animalRepo.save(quagga);
-        animalRepo.save(desertRatKangaroo);
-
-        
+        animalRepo.save(desertRatKangaroo);       
     }
 }
