@@ -49,22 +49,22 @@ export default function ReviewPage() {
         <div id="slideshow item2" class="slideshow" data-component="slideshow">
         <div class="slideShowList" role="list">
           <div class="slide">
-            <img src="${Review2}" alt="">
+            <img class="reviewSlide" src="${Review2}" alt="">
           </div>
           <div class="slide">
-            <img src="${Review3}" alt="">
+            <img class="reviewSlide" src="${Review3}" alt="">
           </div>
           <div class="slide">
-            <img src="${Review9}" alt="">
+            <img class="reviewSlide" src="${Review9}" alt="">
           </div>
           <div class="slide">
-            <img src="${Review10}" alt="">
+            <img class="reviewSlide" src="${Review10}" alt="">
           </div>
           <div class="slide">
-            <img src="${Review5}" alt="">
+            <img class="reviewSlide" src="${Review5}" alt="">
           </div>
           <div class="slide">
-            <img src="${Review4}" alt="">
+            <img class="reviewSlide" src="${Review4}" alt="">
           </div>
         </div>
       </div>
@@ -74,23 +74,21 @@ export default function ReviewPage() {
       <div id="slideshow item3" class="slideshow"data-component="slideshow">
         <div role="list">     
           <div class="slide">
-            <img src="${Insta5}" alt="">
+            <img class="instaSlide" src="${Insta5}" alt="">
           </div>
           <div class="slide">
-            <img src="${Insta6}" alt="">
+            <img class="instaSlide" src="${Insta6}" alt="">
           </div>
           <div class="slide">
-            <img src="${Insta7}" alt="">
+            <img class="instaSlide" src="${Insta7}" alt="">
           </div>
           <div class="slide">
-            <img src="${Insta8}" alt="">
+            <img class="instaSlide" src="${Insta8}" alt="">
           </div>
           <div class="slide">
-            <img src="${Insta9}" alt="">
+            <img class="instaSlide" src="${Insta9}" alt="">
           </div>
         </div>
-      </div>
-      <div class="item5">
       <img class="reviewS" src='${Insta1}' alt='' />
       <img class="reviewS" src='${Insta2}' alt='' />
       <img class="reviewS" src='${Insta3}' alt='' />
@@ -107,19 +105,19 @@ export default function ReviewPage() {
       <div id="slideshow item7" class="slideshow" data-component="slideshow">
       <div role="list">
         <div class="slide">
-          <img src="${Twit5}" alt="">
+          <img class="twitSlide" src="${Twit5}" alt="">
         </div>
         <div class="slide">
-          <img src="${Twit6}" alt="">
+          <img class="twitSlide" src="${Twit6}" alt="">
         </div>
         <div class="slide">
-          <img src="${Twit7}" alt="">
+          <img class="twitSlide" src="${Twit7}" alt="">
         </div>
         <div class="slide">
-          <img src="${Twit8}" alt="">
+          <img class="twitSlide" src="${Twit8}" alt="">
         </div>
         <div class="slide">
-          <img src="${Twit9}" alt="">
+          <img class="twitSlide" src="${Twit9}" alt="">
         </div>
       </div>
     </div>
