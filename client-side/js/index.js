@@ -9,27 +9,29 @@ import GamesPage from './pages/GamesPage.js';
 import DonatePage from './pages/DonatePage.js';
 import NasaCardsPage from './pages/NasaCardsPage.js';
 import NasaCardPage from './pages/NasaCardPage.js';
+import PaintingsPage from './pages/PaintingsPage.js';
 import apiActions from './api-actions/api-actions.js';
 
 
 buildPage();
 
 function buildPage() {
-    footer();
-    header();
-    navigateToHomePage();
-    navigateToAboutUsPage();
-    navigateToDonatePage();
-    navigateToMeetOurTeamPage();   
-    navigateToOurOfficesPage();
-    navigateToWeAreHiringPage();
-    navigateToGamesPage();
-    renderNasaCardList();
-    renderNasaCard();
+  footer();
+  header();
+  renderMetMuseum()
+  navigateToHomePage();
+  navigateToAboutUsPage();
+  navigateToDonatePage();
+  navigateToMeetOurTeamPage();
+  navigateToOurOfficesPage();
+  navigateToWeAreHiringPage();
+  navigateToGamesPage();
+  renderNasaCardList();
+}
 
 function footer() {
-    const footerElement = document.querySelector('.footer');
-    footerElement.innerHTML = Footer();
+  const footerElement = document.querySelector('.footer');
+  footerElement.innerHTML = Footer();
 }
 
 function navigateToDonatePage() {
@@ -41,8 +43,8 @@ function navigateToDonatePage() {
 }
 
 function header() {
-    const headerElement = document.querySelector('.header');
-    headerElement.innerHTML = Header();
+  const headerElement = document.querySelector('.header');
+  headerElement.innerHTML = Header();
 }
 
 function navigateToHomePage() {
@@ -54,11 +56,11 @@ function navigateToHomePage() {
 }
 
 function navigateToAboutUsPage() {
-    const aboutUsButton = document.querySelector('.nav__list_about_us');
-    aboutUsButton.addEventListener('click', () => {
-      const app = document.querySelector('#app');
-      app.innerHTML = AboutUsPage();
-    });
+  const aboutUsButton = document.querySelector('.nav__list_about_us');
+  aboutUsButton.addEventListener('click', () => {
+    const app = document.querySelector('#app');
+    app.innerHTML = AboutUsPage();
+  });
 }
 
 function navigateToMeetOurTeamPage() {
@@ -86,11 +88,11 @@ function navigateToWeAreHiringPage() {
 }
 
 function navigateToGamesPage() {
-    const gamesButton = document.querySelector('.nav__list_games');
-    gamesButton.addEventListener('click', () => {
-      const app = document.querySelector('#app');
-      app.innerHTML = GamesPage();
-    });
+  const gamesButton = document.querySelector('.nav__list_games');
+  gamesButton.addEventListener('click', () => {
+    const app = document.querySelector('#app');
+    app.innerHTML = GamesPage();
+  });
 }
 
 function renderNasaCardList() {
@@ -101,8 +103,20 @@ function renderNasaCardList() {
       'https://images-api.nasa.gov/search?keywords=(astronaut)or(portrait)or(apollo)',
       (nasaCards) => {
         app.innerHTML = NasaCardsPage(nasaCards);
-      }
-    );
+      });
   });
 }
+
+function renderMetMuseum() {
+  const metMuseumButton = document.querySelector('.nav__list_metMuseum');
+  metMuseumButton.addEventListener('click', () => {
+    const app = document.querySelector('#app');
+    apiActions.metMuseumPaintings((paintings) => {
+    app.innerHTML = PaintingsPage(paintings)
+    });
+    // apiActions.getRequest('https://collectionapi.metmuseum.org/public/collection/v1/objects/437133',
+    // (paintings) => {
+    // app.innerHTML = PaintingsPage(paintings)
+    // });
+  });
 }

@@ -1,0 +1,44 @@
+@import url('http://fonts.googleapis.com/css2?family=Yomogi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+
+/* #met_museum__container {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 2 rem;
+}
+
+#met_museum__heading {
+    font-size: 4.0rem;
+    color: rgb(161, 20, 51);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-family: 'Rock Salt', cursive;
+}
+
+.painting__title {
+    color: rgb(0, 0, 0);
+    font-family: 'Yomogi', cursive;
+}
+
+.flex_column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex_center {
+    justify-content: center;
+    align-items: center;
+}
+
+.justify_center {
+    justify-content: center;
+} */
