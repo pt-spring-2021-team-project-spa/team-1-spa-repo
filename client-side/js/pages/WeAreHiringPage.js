@@ -1,5 +1,6 @@
 import '../../css/weAreHiringStyle.css';
 import HomePageHeader from '../components/HomePageHeader';
+import Footer from '../components/Footer.js';
 
 export default function WeAreHiringPage() {
     return `
@@ -31,5 +32,6 @@ export default function WeAreHiringPage() {
     <p>Singapore & Bali - Coming Soon</p>
     <p>Ohio - Coming Soon</p>
     </div>
+    ${Footer()}
     `;
 }

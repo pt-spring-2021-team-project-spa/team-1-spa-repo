@@ -1,5 +1,6 @@
 import '../../css/nasaCardsStyle.css';
 import NasaCards from '../components/NasaCards.js';
+import Footer from '../components/Footer.js';
 
 export default function NasaCardsPage(nasaCards) {
     return `
@@ -7,5 +8,6 @@ export default function NasaCardsPage(nasaCards) {
     <h1>List of NASA Astronauts in Apollo mission Page</h1>
     ${NasaCards(nasaCards)}
     </div>
+    ${Footer()}
     `;
 }

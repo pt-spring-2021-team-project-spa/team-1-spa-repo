@@ -2,6 +2,7 @@ import BlogPage from './pages/BlogPage.js';
 import AboutUsPage from './pages/AboutUsPage.js';
 import MeetOurTeamPage from './pages/MeetOurTeamPage.js';
 import HomePageHeader from './components/HomePageHeader.js';
+import Footer from './components/Footer.js';
 import HomePage from './pages/HomePage.js';
 import ReviewPage from './pages/ReviewPage.js';
 import OurOfficesPage from './pages/OurOfficesPage.js';
@@ -25,6 +26,7 @@ function buildPage() {
   navigateToGamesPage();
   navigateToNasaCardPage();
   navigateToNasaListPage();
+  footer();
 }
 function buildHomePage() {
   navigateToHomePageByNavButton();
@@ -38,6 +40,7 @@ function buildHomePage() {
   navigateToGamesPage();
   navigateToNasaCardPage();
   navigateToNasaListPage(); 
+  footer();
 }
 function buildAboutUsPage() {
   navigateToHomePageByNavButton();
@@ -51,6 +54,7 @@ function buildAboutUsPage() {
   navigateToGamesPage();
   navigateToNasaCardPage();
   navigateToNasaListPage();
+  footer();
 }
 function buildMeetOurTeamPage() {
   navigateToHomePageByNavButton();
@@ -64,6 +68,7 @@ function buildMeetOurTeamPage() {
   navigateToGamesPage();
   navigateToNasaCardPage();
   navigateToNasaListPage();
+  footer();
 }
 function buildOurOfficesPage() {
   navigateToHomePageByNavButton();
@@ -77,6 +82,7 @@ function buildOurOfficesPage() {
   navigateToGamesPage();
   navigateToNasaCardPage();
   navigateToNasaListPage();
+  footer();
 }
 function buildBlogPage() {
   navigateToHomePageByNavButton();
@@ -90,6 +96,7 @@ function buildBlogPage() {
   navigateToGamesPage();
   navigateToNasaCardPage();
   navigateToNasaListPage();
+  footer();
 }
 function buildReviewPage() {
   navigateToHomePageByNavButton();
@@ -103,6 +110,7 @@ function buildReviewPage() {
   navigateToGamesPage();
   navigateToNasaCardPage();
   navigateToNasaListPage();
+  footer();
 }
 function buildDonatePage() {
   navigateToHomePageByNavButton();
@@ -116,6 +124,7 @@ function buildDonatePage() {
   navigateToGamesPage();
   navigateToNasaCardPage();
   navigateToNasaListPage();
+  footer();
 }
 function buildWeAreHiringPage() {
   navigateToHomePageByNavButton();
@@ -129,6 +138,7 @@ function buildWeAreHiringPage() {
   navigateToGamesPage();
   navigateToNasaCardPage();
   navigateToNasaListPage();
+  footer();
 }
 function buildGamesPage() {
   navigateToHomePageByNavButton();
@@ -142,6 +152,7 @@ function buildGamesPage() {
   navigateToGamesPage();
   navigateToNasaCardPage();
   navigateToNasaListPage();
+  footer();
 }
 function buildNasaCardPage() {
   navigateToHomePageByNavButton();
@@ -155,6 +166,7 @@ function buildNasaCardPage() {
   navigateToGamesPage();
   navigateToNasaCardPage();
   navigateToNasaListPage();
+  footer();
 }
 function buildNasaListPage() {
   navigateToHomePageByNavButton();
@@ -168,6 +180,7 @@ function buildNasaListPage() {
   navigateToGamesPage();
   navigateToNasaCardPage();
   navigateToNasaListPage();
+  footer();
 }
 function buildHomePage() {
   navigateToHomePageByNavButton();
@@ -181,6 +194,7 @@ function buildHomePage() {
   navigateToGamesPage();
   navigateToNasaCardPage();
   navigateToNasaListPage(); 
+  footer();
 }
 function buildAboutUsPage() {
   navigateToHomePageByNavButton();
@@ -194,6 +208,7 @@ function buildAboutUsPage() {
   navigateToGamesPage();
   navigateToNasaCardPage();
   navigateToNasaListPage();
+  footer();
 }
 function buildMeetOurTeamPage() {
   navigateToHomePageByNavButton();
@@ -207,6 +222,7 @@ function buildMeetOurTeamPage() {
   navigateToGamesPage();
   navigateToNasaCardPage();
   navigateToNasaListPage();
+  footer();
 }
 function buildOurOfficesPage() {
   navigateToHomePageByNavButton();
@@ -220,6 +236,7 @@ function buildOurOfficesPage() {
   navigateToGamesPage();
   navigateToNasaCardPage();
   navigateToNasaListPage();
+  footer();
 }
 function buildBlogPage() {
   navigateToHomePageByNavButton();
@@ -233,6 +250,7 @@ function buildBlogPage() {
   navigateToGamesPage();
   navigateToNasaCardPage();
   navigateToNasaListPage();
+  footer();
 }
 function buildReviewPage() {
   navigateToHomePageByNavButton();
@@ -246,6 +264,7 @@ function buildReviewPage() {
   navigateToGamesPage();
   navigateToNasaCardPage();
   navigateToNasaListPage();
+  footer();
 }
 function buildDonatePage() {
   navigateToHomePageByNavButton();
@@ -259,6 +278,7 @@ function buildDonatePage() {
   navigateToGamesPage();
   navigateToNasaCardPage();
   navigateToNasaListPage();
+  footer();
 }
 function buildWeAreHiringPage() {
   navigateToHomePageByNavButton();
@@ -272,6 +292,7 @@ function buildWeAreHiringPage() {
   navigateToGamesPage();
   navigateToNasaCardPage();
   navigateToNasaListPage();
+  footer();
 }
 function buildGamesPage() {
   navigateToHomePageByNavButton();
@@ -285,6 +306,7 @@ function buildGamesPage() {
   navigateToGamesPage();
   navigateToNasaCardPage();
   navigateToNasaListPage();
+  footer();
 }
 function buildNasaCardPage() {
   navigateToHomePageByNavButton();
@@ -298,6 +320,7 @@ function buildNasaCardPage() {
   navigateToGamesPage();
   navigateToNasaCardPage();
   navigateToNasaListPage();
+  footer();
 }
 function buildNasaListPage() {
   navigateToHomePageByNavButton();
@@ -311,11 +334,16 @@ function buildNasaListPage() {
   navigateToGamesPage();
   navigateToNasaCardPage();
   navigateToNasaListPage();
+  footer();
 }
 
 function homePageHeader() {
     const headerElement = document.querySelector('.header');
     headerElement.innerHTML = HomePageHeader();
+  }
+  function footer() {
+    const footerElement = document.querySelector('.footer');
+    footerElement.innerHTML = Footer();
   }
   function navigateToHomePageByEnterButton() {
     const enterBtn = document.querySelector('.enter');
