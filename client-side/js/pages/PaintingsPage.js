@@ -16,10 +16,7 @@ export default function PaintingsPage(paintings) {
             <div class='painting__article_data'>
             <h3 class="painting__title yomogi_black">Title: ${painting.title.toString()}</h3>
             <h3 class="painting__year_painted yomogi_red">Year Painted: ${painting.objectDate.toString()}</h3>
-
-            ${painting.dimensions.toString((dimensions) => {
-                console.log(dimensions)
-            })}
+            <h3 class='painting__dimensions yomogi_black'>Painting Dimensions: ${painting.dimensions.toString()}</h3>
             </div>
             <div class='painting__article_description yomogi_black'>
                 <h2 class='yomogi_black'>Description</h3>

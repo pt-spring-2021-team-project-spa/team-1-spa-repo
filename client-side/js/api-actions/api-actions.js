@@ -8,7 +8,7 @@ function getRequest(location, callback) {
 function metMuseumPaintings(callback) {
     Promise.all([
         fetch('https://collectionapi.metmuseum.org/public/collection/v1/objects/436949'),
-        fetch('https://collectionapi.metmuseum.org/public/collection/v1/objects/45685'),
+        fetch('https://collectionapi.metmuseum.org/public/collection/v1/objects/10586'),
         fetch('https://collectionapi.metmuseum.org/public/collection/v1/objects/437685'),
         fetch('https://collectionapi.metmuseum.org/public/collection/v1/objects/436595'),
         fetch('https://collectionapi.metmuseum.org/public/collection/v1/objects/437926'),
