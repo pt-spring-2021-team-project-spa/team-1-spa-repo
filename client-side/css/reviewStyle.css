@@ -29,17 +29,37 @@ body {
     color: blueviolet;
     display: block;
     font-size: xx-large;
-    margin-top: 100px;
+    margin-left: -20px;
+    margin-top: 220px;
+    padding: 20px;
     text-align: center;
     text-shadow: 3px 3px #5485dfb7;
+    width: 300px;
+}
+.textAtTopRight {
+    color: blueviolet;
+    display: block;
+    font-size: xx-large;
+    margin-left: 950px;
+    margin-top: -430px;
+    text-align: center;
+    text-shadow: 3px 3px #5485dfb7;
+    width: 300px;
 }
 .textAtMid {
     color: rgb(34, 233, 117);
     display: block;
     font-size: xx-large;
-    margin-top: 50px;
+    margin-top: 40px;
     text-align: center;
     text-shadow: 3px 3px #1347a7b7;
+}
+.textAtMidBottom {
+    color: rgb(34, 233, 117);
+    font-size: xx-large;
+    margin-top: -10px;
+    text-shadow: 3px 3px #1347a7b7;
+    margin-left: 700px;
 }
 .textAtBottom {
     color: blueviolet;
@@ -51,9 +71,12 @@ body {
 }
  .reviewImg1 {
   padding: 100px;
+  margin-left: -100px;
     }
     .reviewImg2 {
     padding: 100px;
+    margin-left: 360px;
+    margin-top: -565px;
         }
     .flexLine {
         display: flex;
@@ -68,14 +91,19 @@ body {
         margin-left: 15px;
     }
     .reviewSS {
-        height: 300px;
-        margin: 20px;
-        box-shadow:  2px 5px rgba(0,0,0,0.1);  
+        height: 400px;
+        margin-top: 20px;
+        padding: 20px;
+          
     }
     .reviewS {
         box-shadow: 0 2px 5px rgba(0,0,0,0.1);
         height: 500px;
         margin: 15px;
+    }
+    .pushDown {
+        margin-top: 120px;
+        margin-left: -80px;
     }
     .item4 {
         align-items: center;
@@ -89,7 +117,7 @@ body {
         display: block;
     }
     .reviewSlide {
-        height: 300px;
+        height: 400px;
         margin: 20px;
         box-shadow: 0 2px 5px rgba(0,0,0,0.1);   
     }
@@ -101,19 +129,27 @@ body {
     }
     .twitSlide {
         box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        height: 150px; 
+        height: 200px; 
      margin: 15px; 
     }
     .item6 {
         margin: 10px;
     }
     .twit {
-     height: 150px; 
+     height: 200px; 
      margin: 15px;  
     }
+    .reviewInstaImg1 {
+        margin-left: 0px;
+        
+    } 
+    .reviewInstaImg2 {
+        margin-left: 455px;
+        margin-top: -534px;
+    } 
     .reviewTwitImg2 {
-        margin-left: 340px;
-        margin-top: -183px;
+        margin-left: 420px;
+        margin-top: -224px;
     } 
  @media only screen and (max-width: 961px) {
     header {

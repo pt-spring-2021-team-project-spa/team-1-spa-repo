@@ -92,7 +92,6 @@ body {
   .nav__list {
     display: flex;
     justify-content: space-evenly;
-    margin-right: -50px;
     padding-top: 10px;
   }
   .nav__list button { 
