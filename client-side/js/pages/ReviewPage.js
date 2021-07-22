@@ -29,6 +29,7 @@ import Twit7 from '../images/social_t_7.png';
 import Twit8 from '../images/social_t_8.png';
 import Twit9 from '../images/social_t_9.png';
 import HomePageHeader from '../components/HomePageHeader';
+import Footer from '../components/Footer.js';
 
 export default function ReviewPage() {
     return `
@@ -122,6 +123,6 @@ export default function ReviewPage() {
       </div>
     </div>
     </div>
-
+    ${Footer()}
     `;
 }

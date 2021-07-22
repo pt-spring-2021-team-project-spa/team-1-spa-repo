@@ -1,5 +1,6 @@
 import '../../css/aboutUsStyle.css';
 import HomePageHeader from '../components/HomePageHeader';
+import Footer from '../components/Footer.js';
 
 export default function AboutUsPage() {
     return `
@@ -26,5 +27,6 @@ export default function AboutUsPage() {
     push for better connectivity for students and families, and hold tech companies accountable to ensure healthy digital information for all.</p>
     
     </div>
+    ${Footer()}
     `;
 }

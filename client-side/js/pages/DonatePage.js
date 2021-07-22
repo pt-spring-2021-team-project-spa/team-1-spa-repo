@@ -1,5 +1,6 @@
 import '../../css/DonateStyle.css';
 import HomePageHeader from '../components/HomePageHeader';
+import Footer from '../components/Footer.js';
 
 export default function DonatePage() {
     return `
@@ -175,5 +176,6 @@ export default function DonatePage() {
             </form>
             </div>
         </div>
+        ${Footer()}
     `;
 }

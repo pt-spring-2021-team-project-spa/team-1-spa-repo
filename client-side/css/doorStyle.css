@@ -4,7 +4,7 @@ img.blueD:hover {
   }
   .blueD {
   box-shadow: 4px 2px 6px #010101;
-  margin:30px;
+  margin:200px;
 }
   img.orangeD:hover {
   font-size: 500%;
@@ -12,7 +12,7 @@ img.blueD:hover {
 }
   .orangeD {
   box-shadow: 4px 2px 6px #010101;
-  margin:30px;
+  margin:200px;
   height: 450px;
   }
   img.yellowD:hover {
@@ -21,11 +21,8 @@ img.blueD:hover {
   }
   .yellowD {
   box-shadow: 4px 2px 6px #010101;
-  margin:30px;
+  margin:200px;
   } 
-#images {
-  margin-top: 200px;
-}
 @media only screen and (max-width: 961px) {
    header {
      display: flex;

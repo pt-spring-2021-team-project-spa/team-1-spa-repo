@@ -41,6 +41,7 @@ import JackrTwit8 from '../images/Jackr_Twitter_8.png';
 import JackrTwit9 from '../images/Jackr_Twitter_9.png';
 import JackrTwit10 from '../images/Jackr_Twitter_10.png';
 import HomePageHeader from '../components/HomePageHeader';
+import Footer from '../components/Footer.js';
 
 export default function BlogPage() {
     return `
@@ -104,5 +105,6 @@ export default function BlogPage() {
         <p class="bookText4">WE TWEET!</p>
        </div>
        </div>
+       ${Footer()}
     `;
 }
