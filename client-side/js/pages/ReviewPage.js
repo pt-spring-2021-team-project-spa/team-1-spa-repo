@@ -39,12 +39,10 @@ export default function ReviewPage() {
         </div>
     </div>
     <hr class="rounded">
-<div class="grid1">
-<div class="item1">
+    <div class="flexLine">
+    <div class='reviewImg1">
         <img class="reviewSS " src='${Review1}' alt='' />
         <img class="reviewSS " src='${Review6}' alt='' />
-        <img class="reviewSS " src='${Review7}' alt='' />
-        <img class="reviewSS " src='${Review8}' alt='' />
         </div>
         <div id="slideshow item2" class="slideshow" data-component="slideshow">
         <div class="slideShowList" role="list">
@@ -66,41 +64,60 @@ export default function ReviewPage() {
           <div class="slide">
             <img class="reviewSlide" src="${Review4}" alt="">
           </div>
+          <div class="slide">
+            <img class="reviewSlide" src="${Review1}" alt="">
+          </div>
+          <div class="slide">
+            <img class="reviewSlide" src="${Review7}" alt="">
+          </div>
         </div>
-      </div>
-      </div>
+        </div>
+        <div class='reviewImg2">
+        <img class="reviewSS " src='${Review7}' alt='' />
+        <img class="reviewSS " src='${Review8}' alt='' />
+        </div>
+        </div>
       <hr class="rounded">
-      <div class="insta">
-      <div id="slideshow item3" class="slideshow"data-component="slideshow">
-        <div role="list">     
-          <div class="slide">
-            <img class="instaSlide" src="${Insta5}" alt="">
-          </div>
-          <div class="slide">
-            <img class="instaSlide" src="${Insta6}" alt="">
-          </div>
-          <div class="slide">
-            <img class="instaSlide" src="${Insta7}" alt="">
-          </div>
-          <div class="slide">
-            <img class="instaSlide" src="${Insta8}" alt="">
-          </div>
-          <div class="slide">
-            <img class="instaSlide" src="${Insta9}" alt="">
-          </div>
-        </div>
+      <div class="flexLine">
+      <div class="reviewInstaImg1>
       <img class="reviewS" src='${Insta1}' alt='' />
       <img class="reviewS" src='${Insta2}' alt='' />
+      </div>
+      <div id="slideshow item3" class="slideshow"data-component="slideshow">
+      <div role="list">     
+        <div class="slide">
+          <img class="instaSlide" src="${Insta5}" alt="">
+        </div>
+        <div class="slide">
+          <img class="instaSlide" src="${Insta6}" alt="">
+        </div>
+        <div class="slide">
+          <img class="instaSlide" src="${Insta7}" alt="">
+        </div>
+        <div class="slide">
+          <img class="instaSlide" src="${Insta8}" alt="">
+        </div>
+        <div class="slide">
+          <img class="instaSlide" src="${Insta9}" alt="">
+        </div>
+        <div class="slide">
+          <img class="instaSlide" src="${Insta3}" alt="">
+        </div>
+        <div class="slide">
+          <img class="instaSlide" src="${Insta1}" alt="">
+        </div>
+      </div>
+      </div>
+      <div class="reviewInstaImg2>
       <img class="reviewS" src='${Insta3}' alt='' />
       <img class="reviewS" src='${Insta4}' alt='' />
       </div>
+      </div>
       <hr class="rounded">
-      <div class="twitterGrid">
-      <div class="item6">
+      <div class="flexLine">
+      <div class="reviewTwitImg1">
       <img class="twit" src='${Twit1}' alt='' />
       <img class="twit" src='${Twit2}' alt='' />
-      <img class="twit" src='${Twit3}' alt='' />
-      <img class="twit" src='${Twit4}' alt='' />
       </div>
       <div id="slideshow item7" class="slideshow" data-component="slideshow">
       <div role="list">
@@ -119,9 +136,17 @@ export default function ReviewPage() {
         <div class="slide">
           <img class="twitSlide" src="${Twit9}" alt="">
         </div>
+        <div class="slide">
+        <img class="twitSlide" src="${Twit1}" alt="">
+      </div>
+      <div class="slide">
+        <img class="twitSlide" src="${Twit3}" alt="">
+      </div>
+      </div>
+      <div class="reviewTwitImg2">
+      <img class="twit" src='${Twit3}' alt='' />
+      <img class="twit" src='${Twit4}' alt='' />
       </div>
     </div>
-    </div>
-
-    `;
+       `;
 }

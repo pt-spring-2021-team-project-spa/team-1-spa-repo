@@ -20,25 +20,17 @@ body {
   color: white;
   font-size: medium;
     }
- .reviewImg {
-    display:block;
-    position:relative;
-    height: 650px;
-    width: 101%;
+ .reviewImg1 {
+  padding: 100px;
     }
-
-    .grid1 {
-        display: grid;
-        grid-gap: 2rem;
-        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-    }
-    .item1 {
+    .reviewImg2 {
+    padding: 100px;
+        }
+    .flexLine {
         display: flex;
-        margin-left: 280px;
-    }
-    #item2 {
-
-        
+        justify-content: center;
+        margin: 20px;
+        padding: 15px;
     }
      hr.rounded {
         border-top: 8px solid rgb(136, 131, 131);
@@ -52,16 +44,8 @@ body {
     }
     .reviewS {
         box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        height: 375px;
+        height: 500px;
         margin: 15px;
-    }
-    .insta {
-        align-items: center;
-        justify-items: center;
-    }
-    .item3 {
-     
-        
     }
     .item4 {
         align-items: center;
@@ -69,33 +53,26 @@ body {
     }
     [data-component="slideshow"] .slide {
         display: none;
-      text-align: center;
     }
     
     [data-component="slideshow"] .active {
-        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
         display: block;
     }
     .reviewSlide {
         height: 300px;
         margin: 20px;
-        box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
-         
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);   
     }
     .instaSlide {
         box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        height: 375px;
+        height: 500px;
         margin: 15px; 
+        width: 425px;
     }
     .twitSlide {
         box-shadow: 0 2px 5px rgba(0,0,0,0.1);
         height: 150px; 
      margin: 15px; 
-    }
-    .instaGrid {
-        align-items: center;
-        display: grid;
-        justify-items: center;
     }
     .item6 {
         margin: 10px;
@@ -104,9 +81,10 @@ body {
      height: 150px; 
      margin: 15px;  
     }
-    .item7 {
-margin-left: 150px;
-    }
+    .reviewTwitImg2 {
+        margin-left: 340px;
+        margin-top: -183px;
+    } 
  @media only screen and (max-width: 961px) {
     header {
       display: flex;
