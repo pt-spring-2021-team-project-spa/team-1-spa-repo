@@ -7,6 +7,8 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    box-shadow: 4px 2px 6px #010101;
+    opacity: .9;
     position: relative;
     height: 50vh;
     margin: 5px;
@@ -20,6 +22,30 @@ body {
   color: white;
   font-size: medium;
     }
+.textAtTop {
+    color: blueviolet;
+    display: block;
+    font-size: xx-large;
+    margin-top: 100px;
+    text-align: center;
+    text-shadow: 3px 3px #5485dfb7;
+}
+.textAtMid {
+    color: rgb(34, 233, 117);
+    display: block;
+    font-size: xx-large;
+    margin-top: 50px;
+    text-align: center;
+    text-shadow: 3px 3px #5485dfb7;
+}
+.textAtBottom {
+    color: blueviolet;
+    display: block;
+    font-size: xx-large;
+    margin-top: 50px;
+    text-align: center;
+    text-shadow: 3px 3px #5485dfb7;
+}
  .reviewImg1 {
   padding: 100px;
     }

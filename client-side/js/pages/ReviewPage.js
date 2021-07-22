@@ -40,6 +40,7 @@ export default function ReviewPage() {
     </div>
     <hr class="rounded">
     <div class="flexLine">
+    <h2 class="textAtTop">We LOVE hearing about your experiences!</h2>
     <div class='reviewImg1">
         <img class="reviewSS " src='${Review1}' alt='' />
         <img class="reviewSS " src='${Review6}' alt='' />
@@ -71,13 +72,15 @@ export default function ReviewPage() {
             <img class="reviewSlide" src="${Review7}" alt="">
           </div>
         </div>
-        </div>
+       </div>
         <div class='reviewImg2">
         <img class="reviewSS " src='${Review7}' alt='' />
         <img class="reviewSS " src='${Review8}' alt='' />
         </div>
+        <h2 class="textAtTop"> See what everyone has to say about JacKr Academy</h2>
         </div>
       <hr class="rounded">
+      <h2 class="textAtMid">THIS COULD BE YOU! TAG #JACKRACADEMY OR #NAMETHATYEAR ON YOUR NEXT POST!</h2>
       <div class="flexLine">
       <div class="reviewInstaImg1>
       <img class="reviewS" src='${Insta1}' alt='' />
@@ -114,6 +117,7 @@ export default function ReviewPage() {
       </div>
       </div>
       <hr class="rounded">
+      <h2 class="textAtBottom">YOU JUST MIGHT SEE YOURSELF ON OUR PAGE! </h2>
       <div class="flexLine">
       <div class="reviewTwitImg1">
       <img class="twit" src='${Twit1}' alt='' />
