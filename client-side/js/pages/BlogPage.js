@@ -50,7 +50,6 @@ export default function BlogPage() {
         <h2>BREAK TIME</h2>
     </div>
 </div>
-  
     <hr class="rounded">
     <div class="blogGrid1">
     <div class="item8">
@@ -65,12 +64,14 @@ export default function BlogPage() {
         </div>
         </div>
         <hr class="roundedBlog">
+<section class="bookGrid">
 <div class="bookClub item9">
 <h2 class="bookText">GET YOUR READ ON ... ON US!</h2>
-<img class="book" src='${Book1}' alt='' />
-<img class="book" src='${Book2}' alt='' />
-<img class="book" src='${Book3}' alt='' />
+<div> <img class="book" src='${Book1}' alt='' /> </div>
+<div><img class="book" src='${Book2}' alt='' /></div>
+<div><img class="book" src='${Book3}' alt='' /></div>
 </div>
+</section>
 <hr class="roundedBlog">
 <div class="bookClub">
 <h2 class="bookText2">BECAUSE WE CARE</h2>

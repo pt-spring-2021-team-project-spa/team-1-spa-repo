@@ -16,7 +16,13 @@
       color: white;
       font-size: medium;
         }
-
+.bookGrid {
+    display: grid;
+    grid-template-columns: auto;
+    background-color: blueviolet;
+    width: 450px;
+    margin-top: -250px;
+}
 .blogImg {
     display:block;
     position:relative;
@@ -40,11 +46,9 @@
     .book {
         height: 400px;
         margin: 15px; 
-        
     }
     .bookClub {
         text-align: center;
-        margin-left: 20px;
     }
     .bookText {
        color: rgb(76, 32, 146);
@@ -77,8 +81,6 @@
     }
     .item9 {
         justify-items: center;
-        margin-left: 110px;
-        
     }
     hr.roundedBlog {
         border-top: 8px solid rgb(136, 131, 131);
