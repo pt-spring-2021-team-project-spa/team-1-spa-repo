@@ -12,15 +12,18 @@ body {
     position: relative;
     height: 50vh;
     margin: 5px;
+    text-shadow: 2px 2px darkcyan;
     }
 .top-text {
     text-align: left;
+    height: 200px;
   position: absolute;
-  top: 60%;
-  left: 24%;
+  margin-top: 150px;
+  margin-left: 950px;
   transform: translate(-50%, -50%);
   color: white;
-  font-size: medium;
+  font-size: 100px;
+  width: 1700px;
     }
 .textAtTop {
     color: blueviolet;
@@ -36,7 +39,7 @@ body {
     font-size: xx-large;
     margin-top: 50px;
     text-align: center;
-    text-shadow: 3px 3px #5485dfb7;
+    text-shadow: 3px 3px #1347a7b7;
 }
 .textAtBottom {
     color: blueviolet;
@@ -59,14 +62,15 @@ body {
         padding: 15px;
     }
      hr.rounded {
-        border-top: 8px solid rgb(136, 131, 131);
+        border-top: 10px solid rgb(136, 131, 131);
+        box-shadow:  1px 1px rgba(125, 231, 38, 0.753); 
         border-radius: 5px;
         margin-left: 15px;
     }
     .reviewSS {
         height: 300px;
         margin: 20px;
-        box-shadow: 0 2px 5px rgba(0,0,0,0.1);  
+        box-shadow:  2px 5px rgba(0,0,0,0.1);  
     }
     .reviewS {
         box-shadow: 0 2px 5px rgba(0,0,0,0.1);

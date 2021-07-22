@@ -91,20 +91,21 @@ body {
   }
   .nav__list {
     display: flex;
+    justify-content: space-evenly;
     margin-right: -50px;
     padding-top: 10px;
   }
   .nav__list button { 
+    align-items: center;
+    background-color: rgb(73, 165, 165);
+    border-radius: 100%;
+    color: white;
     display: flex;
     flex-direction: column;
-    background-color: darkcyan;
-    border-radius: 4px;
-    align-items: center;
-    color: white;
-    padding: 10px;
     list-style-type: none;
     margin: 10px;
     opacity: .9;
+    padding: 10px;    
   }
   button.nav__list_home:hover {
     background-color: #f0f0f2;

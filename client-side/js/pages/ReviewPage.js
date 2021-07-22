@@ -35,7 +35,7 @@ export default function ReviewPage() {
     ${HomePageHeader()}
 <div class="top-image">
         <div class="top-text">
-            <h2>"LOOK WHO SPILLED THE BEANS"</h2>
+            <h2>LOOK WHO SPILLED THE BEANS</h2>
         </div>
     </div>
     <hr class="rounded">
@@ -80,7 +80,7 @@ export default function ReviewPage() {
         <h2 class="textAtTop"> See what everyone has to say about JacKr Academy</h2>
         </div>
       <hr class="rounded">
-      <h2 class="textAtMid">THIS COULD BE YOU! TAG #JACKRACADEMY OR #NAMETHATYEAR ON YOUR NEXT POST!</h2>
+      <h2 class="textAtMid">THIS COULD BE YOU! TAG #JACKRACADEMY OR #NAMETHATYEAR IN YOUR NEXT POST!</h2>
       <div class="flexLine">
       <div class="reviewInstaImg1>
       <img class="reviewS" src='${Insta1}' alt='' />
