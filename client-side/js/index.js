@@ -26,6 +26,7 @@ function buildPage() {
     navigateToGamesPage();
     renderNasaCardList();
     renderNasaCard();
+    renderAnimalRandomData();
 
 function footer() {
     const footerElement = document.querySelector('.footer');
@@ -94,8 +95,6 @@ function navigateToGamesPage() {
     });
 }
 
-
-
 function renderNasaCardList() {
   var NasaParam = ['lunar','astronauts','mars','apollo','nasm','venus','sun','planet','hubble','mercury','pluto','jupiter','saturn','uranus','neptune'];
   let NasaSearchParam = NasaParam[Math.floor(Math.random() * NasaParam.length)];
@@ -110,4 +109,18 @@ function renderNasaCardList() {
     );
   });
 }
+
+function renderAnimalRandomData() {
+  let AnimalSearchParam = Math.floor(Math.random() * (18 - 13) + 13);
+  const animalRandomBtn = document.querySelector('.nav__list_nasaCard');
+  animalRandomBtn.addEventListener('click', () => {
+    const app = document.querySelector('#app');
+    
+    console.log('HI bren')
+    apiActions.getRequest('http://localhost:8080/api/animals/' + AnimalSearchParam, 
+    )
+    
+  })
+}
+
 }

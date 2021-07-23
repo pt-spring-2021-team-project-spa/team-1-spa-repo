@@ -24,4 +24,5 @@ public class AnimalController {
     public Optional<Animal> getAnimal(@PathVariable Long id) {
         return animalRepo.findById(id);
     }
+
 }

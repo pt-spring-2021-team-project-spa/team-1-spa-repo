@@ -6,6 +6,7 @@ export default function HomePage() {
   <div class="center">
       <div class="txt-hp">
           <h1 class="hp-title">CAN YOU NAME THAT YEAR</h1>
+          
       </div>
       ${Door()}
       <div class="bottom">
