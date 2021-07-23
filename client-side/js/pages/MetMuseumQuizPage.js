@@ -1,4 +1,7 @@
-export default function MetMuseumQuiz() {
+// import '. /js/metMuseumQuiz.js';
+
+export default function MetMuseumQuizPage(){
+
 return `
 <div class="met__container">
 <div id="game" class="justify_center flex_column">
@@ -38,5 +41,6 @@ return `
         <p class="choice_text" data-number="4"></p>
     </div>
 </div>
-</div>`
+</div>
+`;
 }

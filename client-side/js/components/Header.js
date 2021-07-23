@@ -13,6 +13,8 @@ export default function Header() {
       <button class='nav__list_nasaCard'>NASA</button>
       <button class='nav__list_nasaCards'>NASA List</button>
       <button class='nav__list_metMuseum'>MetMuseum</button>
+      <button class='nav__list_met_quiz'>MetQuiz</button>
+      <button class='nav__list_met_game'>MetGame</button>
       </li>
       `;
 }

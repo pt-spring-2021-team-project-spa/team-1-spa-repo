@@ -10,6 +10,8 @@ import DonatePage from './pages/DonatePage.js';
 import NasaCardsPage from './pages/NasaCardsPage.js';
 import NasaCardPage from './pages/NasaCardPage.js';
 import PaintingsPage from './pages/PaintingsPage.js';
+import MetMuseumStartQuizPage from './pages/MetMuseumStartQuizPage.js';
+import MetMuseumQuizPage from './pages/MetMuseumQuizPage.js';
 import apiActions from './api-actions/api-actions.js';
 
 
@@ -27,6 +29,8 @@ function buildPage() {
   navigateToWeAreHiringPage();
   navigateToGamesPage();
   renderNasaCardList();
+  navigateToMetStartQuizPage();
+  navigateToMetQuizPage();
 }
 
 function footer() {
@@ -92,6 +96,22 @@ function navigateToGamesPage() {
   gamesButton.addEventListener('click', () => {
     const app = document.querySelector('#app');
     app.innerHTML = GamesPage();
+  });
+}
+
+function navigateToMetStartQuizPage() {
+  const metQuizButton = document.querySelector('.nav__list_met_quiz');
+  metQuizButton.addEventListener('click', () => {
+    const app = document.querySelector('#app');
+    app.innerHTML = MetMuseumStartQuizPage();
+  });
+}
+
+function navigateToMetQuizPage() {
+  const metGameButton = document.querySelector('.nav__list_met_game');
+  metGameButton.addEventListener('click', () => {
+    const app = document.querySelector('#app');
+    app.innerHTML = MetMuseumQuizPage();
   });
 }
 

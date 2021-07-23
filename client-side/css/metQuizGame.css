@@ -1,0 +1,89 @@
+body {
+    color: black;
+    width: 100%;
+    height: 100%;
+}
+
+
+img {
+    width: 25%;
+    height: 25%;
+}
+.choice_container {
+    display: flex;
+    margin-bottom: 0.8rem;
+    width: 100%;
+    border-radius: 4px;
+    background: rgb(222, 225, 230);
+    font-size: 4rem;
+    min-width: 80rem;
+}
+
+.fa {
+    font-weight: bolder;
+    font-size: 80px;
+}
+
+.choice_container:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(169, 187, 214, 0.5);
+    transform: scale(1.02);
+    transform: transform 100ms;
+}
+
+.choice_prefix {
+    padding: 2rem 2.5rem;
+    color: rgb(192, 35, 35);
+    font-weight: bolder;
+}
+
+.choice_text {
+    color: rgb(192, 35, 35);
+    font-weight: bolder;
+    padding: 2rem;
+    width: 100%;
+}
+
+.correct {
+    background: linear-gradient(32deg, rgba(11, 223, 36) 0%, rgb(41,232,111) 100%);
+}
+
+.incorrect {
+    background: linear-gradient(32deg, rgb(223, 11, 11) 0%, rgb(232, 41, 44) 100%);
+}
+
+/* Met Game Display */
+#met_display {
+    display: flex;
+    justify-content: space-between;
+}
+
+.met_display__prefix {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.met_display__main_text {
+    text-align: center;
+}
+
+#progress_bar {
+    width: 20rem;
+    height: 3rem;
+    border: 0.2rem solid rgb(11,223,36);
+    margin-top: 2rem;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+#progress_bar_full {
+    height: 100%;
+    background: rgb(111, 223, 36);
+    width: 0%;
+}
+
+@media screen and (max-width: 768px) {
+    .choice_container {
+        min-width: 40rem;
+    }
+}
