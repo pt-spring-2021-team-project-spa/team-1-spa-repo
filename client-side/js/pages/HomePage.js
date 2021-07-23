@@ -11,4 +11,4 @@ export default function HomePage() {
       <div class="bottom">
           <h3 class="hp-choice"> CHOOSE A DOOR</h3>
       </div>
-  `;
+      `};

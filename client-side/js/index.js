@@ -49,6 +49,7 @@ function navigateToHomePage() {
   const homeButton = document.querySelector('.nav__list_home');
   homeButton.addEventListener('click', () => {
     const app = document.querySelector('#app');
+    location = location;
     app.innerHTML = HomePage();
   });
 }
@@ -93,12 +94,16 @@ function navigateToGamesPage() {
     });
 }
 
+
+
 function renderNasaCardList() {
+  var NasaParam = ['lunar','astronauts','mars','apollo','nasm','venus','sun','planet','hubble','mercury','pluto','jupiter','saturn','uranus','neptune'];
+  let NasaSearchParam = NasaParam[Math.floor(Math.random() * NasaParam.length)];
   const nasaCardsButton = document.querySelector('.nav__list_nasaCards');
   nasaCardsButton.addEventListener('click', () => {
     const app = document.querySelector('#app');
     apiActions.getRequest(
-      'https://images-api.nasa.gov/search?keywords=(astronaut)or(portrait)or(apollo)',
+      'https://images-api.nasa.gov/search?keywords=' + NasaSearchParam,
       (nasaCards) => {
         app.innerHTML = NasaCardsPage(nasaCards);
       }
