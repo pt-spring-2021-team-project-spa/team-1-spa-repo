@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+.meetOurTeamPage {
+    background: #A3C5B9;    
+    background-image: url("../js/images/sprinkles.png");
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100%;
+    margin-top: 0px;    
+    width: 98.95%;
+    padding: 2rem;
+  }
+
