@@ -1,41 +1,27 @@
 package org.wecancodeit.mysteryeducator.controllers;
 
-import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.*;
 import org.wecancodeit.mysteryeducator.models.Animal;
-import org.wecancodeit.mysteryeducator.models.Continent;
 import org.wecancodeit.mysteryeducator.repos.AnimalRepository;
 
 import javax.annotation.Resource;
+import java.util.Collection;
 import java.util.Optional;
 
-@Controller
+@RestController
+@CrossOrigin
 public class AnimalController {
 
     @Resource
     private AnimalRepository animalRepo;
 
-//    @RequestMapping({"/animals"})
-//    public String displayAnimals(Model model) {
-//        model.addAttribute("animals", animalRepo.findAll());
-//        return "animalsView";
-//    }
+    @GetMapping("/api/animals")
+    public Collection<Animal> getAnimals() {
+        return (Collection<Animal>) animalRepo.findAll();
+    }
 
-//    @GetMapping("/animals/{continent}")
-//    public String displaySingleAnimal(@PathVariable String continent, Model model) {
-//        Animal retrievedAnimal = animalRepo.findAnimalByContinent(continent);
-//        model.addAttribute("campus", retrievedAnimal);
-//        return "animalView";
-//    }
-
-//    @GetMapping("/animals/{id}")
-//    public String displaySingleAnimal(@PathVariable Long id, Model model) {
-//        Optional<Animal> retrievedAnimal = animalRepo.findById(id);
-//        model.addAttribute("id", retrievedAnimal);
-//        return "animalView";
-//
-//    }
+    @GetMapping("/api/animals/{id}")
+    public Optional<Animal> getAnimal(@PathVariable Long id) {
+        return animalRepo.findById(id);
+    }
 }
