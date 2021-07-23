@@ -10,6 +10,7 @@ import DonatePage from './pages/DonatePage.js';
 import NasaCardsPage from './pages/NasaCardsPage.js';
 import NasaCardPage from './pages/NasaCardPage.js';
 import apiActions from './api-actions/api-actions.js';
+import AnimalCardsPage from './pages/AnimalCardsPage.js';
 
 
 buildPage();
@@ -23,7 +24,7 @@ function buildPage() {
     navigateToMeetOurTeamPage();   
     navigateToOurOfficesPage();
     navigateToWeAreHiringPage();
-    navigateToGamesPage();
+    navigateToRandAnimal();
     renderNasaCardList();
     renderNasaCard();
     renderAnimalRandomData();
@@ -87,11 +88,17 @@ function navigateToWeAreHiringPage() {
   });
 }
 
-function navigateToGamesPage() {
-    const gamesButton = document.querySelector('.nav__list_games');
+function navigateToRandAnimal() {
+  let AnimalSearchParam = Math.floor(Math.random() * (18 - 13) + 13);
+    const gamesButton = document.querySelector('.nav__list_animals');
     gamesButton.addEventListener('click', () => {
       const app = document.querySelector('#app');
-      app.innerHTML = GamesPage();
+      console.log(AnimalSearchParam)
+      apiActions.getRequest('http://localhost:8080/api/animals/' + AnimalSearchParam,
+      (animalCards) => {
+        app.innerHTML = AnimalCardsPage(animalCards);
+      } 
+    )
     });
 }
 
@@ -107,20 +114,9 @@ function renderNasaCardList() {
         app.innerHTML = NasaCardsPage(nasaCards);
       }
     );
+    
   });
 }
 
-function renderAnimalRandomData() {
-  let AnimalSearchParam = Math.floor(Math.random() * (18 - 13) + 13);
-  const animalRandomBtn = document.querySelector('.nav__list_nasaCard');
-  animalRandomBtn.addEventListener('click', () => {
-    const app = document.querySelector('#app');
-    
-    console.log('HI bren')
-    apiActions.getRequest('http://localhost:8080/api/animals/' + AnimalSearchParam, 
-    )
-    
-  })
-}
 
 }
