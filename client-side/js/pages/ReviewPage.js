@@ -86,7 +86,7 @@ export default function ReviewPage() {
       <img class="reviewS" src='${Insta1}' alt='' />
       <img class="reviewS" src='${Insta2}' alt='' />
       </div>
-      <div id="slideshow item3" class="slideshow" data-component="slideshow">
+      <div id="slideshow item3" class="slideshow slideshow1" data-component="slideshow">
       <div role="list">     
         <div class="slide">
           <img class="instaSlide" src="${Insta5}" alt="">
@@ -118,7 +118,7 @@ export default function ReviewPage() {
       <img class="twit" src='${Twit1}' alt='' />
       <img class="twit" src='${Twit3}' alt='' />
       </div>
-      <div id="slideshow item7" class="slideshow" data-component="slideshow">
+      <div id="slideshow item7" class="slideshow slideshow2" data-component="slideshow">
       <div role="list">
         <div class="slide">
           <img class="twitSlide" src="${Twit5}" alt="">

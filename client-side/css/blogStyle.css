@@ -11,17 +11,16 @@
         text-align: left;
       position: absolute;
       top: 60%;
-      left: 24%;
+      left: 47%;
       transform: translate(-50%, -50%);
       color: white;
-      font-size: medium;
+      font-size: 80px;
         }
 .bookGrid {
     display: grid;
     grid-template-columns: auto;
-    background-color: blueviolet;
     width: 450px;
-    margin-top: -250px;
+    margin-top: -100px;
 }
 .blogImg {
     display:block;
@@ -45,35 +44,90 @@
     }
     .book {
         height: 400px;
-        margin: 15px; 
+        margin-left: 15px; 
     }
     .bookClub {
         text-align: center;
     }
     .bookText {
-       color: rgb(76, 32, 146);
-    font-size: large; 
+    color: rgb(76, 32, 146);
+    font-size: 25px; 
+    }
+    .bookTextBottom {
+        color: rgb(76, 32, 146);
+        font-size: 17px;
     }
     .bookText2 {
         color: rgb(167, 34, 133);
-     font-size: large; 
+     font-size: 50px; 
+     margin-left: 870px;
+     margin-top: -1175px;
      }
+     .bookText3Bottom {
+         margin-left: 1050px;
+         margin-top: -50px;
+         color: rgb(24, 59, 134);
+         font-size: 17px;
+     }
+     .over {
+        color: rgb(167, 34, 133);
+         margin-left: 905px;
+         font-size: 20px;
+         margin-top: -20px;
+         
+     }
+  
      .bookText3 {
         color: rgb(24, 59, 134);
-     font-size: large; 
+     font-size: 50px; 
+     margin-left: 320px;
      padding: 10px;
      text-align: center;
      }
      .bookText4 {
         color: rgb(119, 71, 17);
-     font-size: large; 
+     font-size: 50px; 
+     padding: 10px;
+     text-align: center;
+     }
+     .bookText41 {
+        color: rgb(119, 71, 17);
+     font-size: 50px; 
+     margin-top: 40px;
      padding: 10px;
      text-align: center;
      }
     .blogSS {
         height: 300px;
-        margin: 10px;
+        margin-left:80px;
         box-shadow: 0 2px 5px rgba(0,0,0,0.1);  
+    }
+    .reviewSS1 {
+        height: 300px;
+        margin-top: 20px;
+        margin-left: 40px;
+    }
+    .move {
+        margin-left: 230px;
+    }
+    .slideshow3 {
+        margin-left: 45px;
+        margin-top: -10px;
+    }
+    .slideshow4 {
+        margin-left: 620px;
+        margin-top: -480px;
+    }
+    .blogOtherSlide {
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        height: 300px;
+        margin: 15px; 
+    }
+    .blogInstaSlide {
+        height: 300px;
+    }
+    .blogTSlide {
+        height: 150px;
     }
     .item8 {
         display: flex;
@@ -93,21 +147,25 @@
     }
     .blogInsta {
      text-align: center;   
+     margin-left: -600px;
     }
     .blogTwit {
-        text-align: center;   
+        text-align: center;
+        margin-left: 1600px;   
+        margin-top: -310px;
        }
     .blogI {
 height: 300px;
 justify-items: center;
 margin: 5px;
-
     }
     .blogT {
-        height: 150px; 
+        height: 150px;
         margin: 15px; 
     }
-
+.down {
+    margin-top: -10px;
+}
     @media only screen and (max-width: 961px) {
         header {
           display: flex;

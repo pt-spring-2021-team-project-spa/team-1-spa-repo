@@ -22,15 +22,15 @@ body {
   margin-left: 950px;
   transform: translate(-50%, -50%);
   color: white;
-  font-size: 100px;
+  font-size: 80px;
   width: 1700px;
     }
 .textAtTop {
     color: blueviolet;
     display: block;
     font-size: xx-large;
-    margin-left: -20px;
-    margin-top: 220px;
+    margin-left: 10px;
+    margin-top: 100px;
     padding: 20px;
     text-align: center;
     text-shadow: 3px 3px #5485dfb7;
@@ -40,8 +40,8 @@ body {
     color: blueviolet;
     display: block;
     font-size: xx-large;
-    margin-left: 950px;
-    margin-top: -430px;
+    margin-left: 880px;
+    margin-top: -260px;
     text-align: center;
     text-shadow: 3px 3px #5485dfb7;
     width: 300px;
@@ -59,7 +59,7 @@ body {
     font-size: xx-large;
     margin-top: -10px;
     text-shadow: 3px 3px #1347a7b7;
-    margin-left: 700px;
+    margin-left: 380px;
 }
 .textAtBottom {
     color: blueviolet;
@@ -76,7 +76,7 @@ body {
     .reviewImg2 {
     padding: 100px;
     margin-left: 360px;
-    margin-top: -565px;
+    margin-top: -543px;
         }
     .flexLine {
         display: flex;
@@ -93,8 +93,6 @@ body {
     .reviewSS {
         height: 400px;
         margin-top: 20px;
-        padding: 20px;
-          
     }
     .reviewS {
         box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -102,8 +100,12 @@ body {
         margin: 15px;
     }
     .pushDown {
-        margin-top: 120px;
+        margin-top: 100px;
         margin-left: -80px;
+    }
+    .slideshow1 {
+        margin-left: -250px;
+        margin-top: 200px;
     }
     .item4 {
         align-items: center;
@@ -129,28 +131,33 @@ body {
     }
     .twitSlide {
         box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        height: 200px; 
+        height: 150px; 
      margin: 15px; 
     }
     .item6 {
         margin: 10px;
     }
     .twit {
-     height: 200px; 
+     height: 150px; 
      margin: 15px;  
     }
     .reviewInstaImg1 {
-        margin-left: 0px;
-        
+        margin-left: 150px;  
     } 
     .reviewInstaImg2 {
-        margin-left: 455px;
-        margin-top: -534px;
+        margin-left: 535px;
+        margin-top: -730px;
     } 
+    .reviewTwitImg1 {
+       margin-left: -90px;
+    }
     .reviewTwitImg2 {
-        margin-left: 420px;
-        margin-top: -224px;
+        margin-left: 320px;
+        margin-top: -183px;
     } 
+    .slideshow2 {
+        margin-left: 20px;
+    }
  @media only screen and (max-width: 961px) {
     header {
       display: flex;
