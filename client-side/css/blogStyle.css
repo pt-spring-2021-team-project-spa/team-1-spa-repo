@@ -1,0 +1,118 @@
+.top-imageBlog {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1611153661566-9cb802ffe968?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1138&q=80");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 50vh;
+    margin: 5px;
+    }
+    .blogTopText1 {
+        text-align: left;
+      position: absolute;
+      top: 60%;
+      left: 24%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: medium;
+        }
+
+.blogImg {
+    display:block;
+    position:relative;
+    height: 650px;
+    width: 100%;
+    }
+    .blog-text {
+        color: wheat;
+        font-size: 150px;
+        position: absolute;
+        top: 25%;
+        left: 850px;
+        transform: translate(-50%, -50%);
+    }
+    .blogTopText {
+        margin-left: 15px;
+        font-size: xx-large;
+        color: teal;
+        margin-top: 150px;
+    }
+    .book {
+        height: 400px;
+        margin: 15px; 
+        
+    }
+    .bookClub {
+        text-align: center;
+        margin-left: 20px;
+    }
+    .bookText {
+       color: rgb(76, 32, 146);
+    font-size: large; 
+    }
+    .bookText2 {
+        color: rgb(167, 34, 133);
+     font-size: large; 
+     }
+     .bookText3 {
+        color: rgb(24, 59, 134);
+     font-size: large; 
+     padding: 10px;
+     text-align: center;
+     }
+     .bookText4 {
+        color: rgb(119, 71, 17);
+     font-size: large; 
+     padding: 10px;
+     text-align: center;
+     }
+    .blogSS {
+        height: 300px;
+        margin: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);  
+    }
+    .item8 {
+        display: flex;
+      
+    }
+    .item9 {
+        justify-items: center;
+        margin-left: 110px;
+        
+    }
+    hr.roundedBlog {
+        border-top: 8px solid rgb(136, 131, 131);
+        border-radius: 5px;
+        margin-left: 450px;
+        margin-right: 120px;
+    }
+    .secondRow {
+        display: flex;
+    }
+    .blogInsta {
+     text-align: center;   
+    }
+    .blogTwit {
+        text-align: center;   
+       }
+    .blogI {
+height: 300px;
+justify-items: center;
+margin: 5px;
+
+    }
+    .blogT {
+        height: 150px; 
+        margin: 15px; 
+    }
+
+    @media only screen and (max-width: 961px) {
+        header {
+          display: flex;
+          flex-direction: column;
+        }
+        container {
+          display: flex;
+        flex-direction: column;
+      }
+    }

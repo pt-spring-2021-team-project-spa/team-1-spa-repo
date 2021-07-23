@@ -1,7 +1,10 @@
 import '../../css/ourOfficesStyle.css';
+import HomePageHeader from '../components/HomePageHeader';
+import Footer from '../components/Footer.js';
 
-export default function OurOfficesPage(){
+export default function OurOfficesPage() {
     return `
+    ${HomePageHeader()}
         <div class='ourOfficesPage'>
         <h1>Regional Offices</h1>
         <h2>Global partnership for positive impact</h2>
@@ -15,5 +18,6 @@ export default function OurOfficesPage(){
         <ul><img class='Singapore' src='singapore' alt='Singapore'> Singapore</img></ul>
         <ul><img class='Bali' src='bali' alt='Bali'> Bali</img></ul>
         </div>
+        ${Footer()}
     `;
 }

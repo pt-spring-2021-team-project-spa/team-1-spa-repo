@@ -1,7 +1,10 @@
 import '../../css/DonateStyle.css';
+import HomePageHeader from '../components/HomePageHeader';
+import Footer from '../components/Footer.js';
 
 export default function DonatePage() {
     return `
+    ${HomePageHeader()}
     <div class="donationBody">
             <h2>Make a Gift to JacKr Enterprises Charities</h2>
             <p>Your gift is 100% tax-deductible</p>
@@ -173,5 +176,6 @@ export default function DonatePage() {
             </form>
             </div>
         </div>
+        ${Footer()}
     `;
 }

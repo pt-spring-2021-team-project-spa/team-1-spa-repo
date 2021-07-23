@@ -1,7 +1,10 @@
 import '../../css/meetOurTeamStyle.css';
+import HomePageHeader from '../components/HomePageHeader';
+import Footer from '../components/Footer.js';
 
 export default function MeetOurTeamPage() {
     return `
+    ${HomePageHeader()}
     <div class='meetOurTeamPage'>
     <h1>Executive Leadership Team</h1>
     <br>
@@ -31,5 +34,6 @@ export default function MeetOurTeamPage() {
     <img class="yuli" src="yuli" alt="Yuli"></img>
     <br>
     </div>
+    ${Footer()}
     `;
 }

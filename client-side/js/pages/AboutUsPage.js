@@ -1,7 +1,10 @@
 import '../../css/aboutUsStyle.css';
+import HomePageHeader from '../components/HomePageHeader';
+import Footer from '../components/Footer.js';
 
 export default function AboutUsPage() {
     return `
+    ${HomePageHeader()}
     <div class='aboutUsPage'>
     <h1>You know your kids. We know media and tech.</h1>
     <h1>Together we can build a digital world where our kids can learn, achieve, and have fun.</h1>
@@ -24,5 +27,6 @@ export default function AboutUsPage() {
     push for better connectivity for students and families, and hold tech companies accountable to ensure healthy digital information for all.</p>
     
     </div>
+    ${Footer()}
     `;
 }
