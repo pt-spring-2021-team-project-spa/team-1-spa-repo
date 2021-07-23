@@ -95,10 +95,6 @@ function navigateToGamesPage() {
   });
 }
 
-var NasaParam = [
-  'astronaut', 'moon', 'mars'
-]
-let NasaSearchParam = NasaParam[Math.floor(Math.random() * NasaParam.length)]
 function renderNasaCardList() {
   const nasaCardsButton = document.querySelector('.nav__list_nasaCards');
   nasaCardsButton.addEventListener('click', () => {
