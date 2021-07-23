@@ -1,5 +1,9 @@
 package org.wecancodeit.mysteryeducator.models;
 
+
+
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import javax.persistence.*;
 import java.util.Objects;
 
@@ -18,6 +22,7 @@ public class Animal {
 
 
     @ManyToOne
+    @JsonIgnore
     private Continent continent;
 
     @ManyToOne
@@ -74,4 +79,5 @@ public class Animal {
     public int hashCode() {
         return Objects.hash(id);
     }
+
 }

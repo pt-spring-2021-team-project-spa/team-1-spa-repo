@@ -6,5 +6,5 @@ import org.wecancodeit.mysteryeducator.models.Animal;
 
 public interface AnimalRepository extends CrudRepository<Animal, Long> {
 
-//    Animal findAnimalByContinent(String continent);
+
 }
