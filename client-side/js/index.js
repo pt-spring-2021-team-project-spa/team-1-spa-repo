@@ -111,16 +111,8 @@ function renderNasaCardList() {
     "mars",
     "apollo",
     "nasm",
-    "venus",
-    "sun",
     "planet",
     "hubble",
-    "mercury",
-    "pluto",
-    "jupiter",
-    "saturn",
-    "uranus",
-    "neptune",
   ];
   let NasaSearchParam = NasaParam[Math.floor(Math.random() * NasaParam.length)];
   const nasaCardsButton = document.querySelector(".nav__list_nasaCards");
