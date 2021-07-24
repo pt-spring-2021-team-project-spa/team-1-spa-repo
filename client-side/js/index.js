@@ -26,8 +26,6 @@ function buildPage() {
   navigateToWeAreHiringPage();
   navigateToRandAnimal();
   renderNasaCardList();
-  navigateToBlogPage();
-  renderMetMuseum();
 }
 function footer() {
   const footerElement = document.querySelector(".footer");
@@ -91,15 +89,6 @@ function navigateToWeAreHiringPage() {
   });
 }
 
-function navigateToBlogPage() {
-  const blogBtn = document.querySelector(".nav__list_blog");
-  blogBtn.addEventListener("click", () => {
-    console.log("Hello");
-    const app = document.querySelector("#app");
-    app.innerHTML = WeAreHiringPage();
-  });
-}
-
 function navigateToRandAnimal() {
   let AnimalSearchParam = Math.floor(Math.random() * (18 - 13) + 13);
   const gamesButton = document.querySelector(".nav__list_animals");
@@ -108,8 +97,8 @@ function navigateToRandAnimal() {
     console.log(AnimalSearchParam);
     apiActions.getRequest(
       "http://localhost:8080/api/animals/" + AnimalSearchParam,
-      (animalCards) => {
-        app.innerHTML = AnimalCardsPage(animalCards);
+      (animalCards) => { console.log(animalCards)
+        // app.innerHTML = AnimalCardsPage(animalCards);
       }
     );
   });
