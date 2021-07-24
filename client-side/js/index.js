@@ -97,8 +97,8 @@ function navigateToRandAnimal() {
     console.log(AnimalSearchParam);
     apiActions.getRequest(
       "http://localhost:8080/api/animals/" + AnimalSearchParam,
-      (animalCards) => { console.log(animalCards)
-        // app.innerHTML = AnimalCardsPage(animalCards);
+      (animalCard) => { 
+        app.innerHTML = AnimalCardsPage(animalCard);
       }
     );
   });

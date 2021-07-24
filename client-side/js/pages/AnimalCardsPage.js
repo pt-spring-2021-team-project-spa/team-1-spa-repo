@@ -1,11 +1,10 @@
-// import '../../css/nasaCardsStyle.css';
-import AnimalCards from '../components/AnimalCards.js';
+import AnimalCard from '../components/AnimalCard';
 
-export default function AnimalCardsPage(animalCards) {
+export default function AnimalCardsPage(animalCard) {
+  console.log(animalCard)
     return `
-    <div class='animalCardsPage'>
-    <h1>random extinct animals</h1>
-    ${AnimalCards(animalCards)}
-    </div>
-    `;
-}
+    <div class='animal__cards_container'>
+          ${AnimalCard(animalCard)};
+        </div>
+      `;
+  }
